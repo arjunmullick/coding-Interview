@@ -18,7 +18,7 @@ public class LinkedListCycle {
             if (head == null || head.next == null) {
                 return false;
             }
-            ListNode fast = head.next;// remember this is important to not start at same location. As first condition would terminate 
+            ListNode fast = head.next;// remember this is important to not start at same location. As first condition would terminate
             ListNode slow = head;
             while(fast!=slow){
                 if(fast == null || fast.next == null){
