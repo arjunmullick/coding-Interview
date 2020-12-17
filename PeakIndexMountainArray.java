@@ -2,6 +2,7 @@ package com.leetcode;
 
 public class PeakIndexMountainArray {
 
+    //https://leetcode.com/problems/peak-index-in-a-mountain-array/
     class Solution {
         public int peakIndexInMountainArray(int[] arr) {
             int n = arr.length;
