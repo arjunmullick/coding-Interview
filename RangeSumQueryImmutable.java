@@ -9,7 +9,6 @@ public class RangeSumQueryImmutable {
         //[-2, 0, 3, -5, 2, -1]
         //[-2,-2, 1, -4,-2, -1]
 
-
         HashMap<Integer,Integer> indexSum;
         int[] nums;//original
         public NumArray(int[] nums) {
@@ -26,7 +25,7 @@ public class RangeSumQueryImmutable {
         public int sumRange(int i, int j) {
             int val1 = indexSum.get(i);
             int val2 = indexSum.get(j);
-            return (val2 - val1) + nums[i];
+            return (val2 - val1) + nums[i]; // add nums[i] as val1 is subtracting it
 
         }
     }
