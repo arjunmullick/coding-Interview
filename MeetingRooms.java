@@ -3,7 +3,7 @@ package com.leetcode;
 import java.util.PriorityQueue;
 
 public class MeetingRooms {
-
+    //https://leetcode.com/problems/meeting-rooms/
     class Solution {
         public boolean canAttendMeetings(int[][] intervals) {
 
