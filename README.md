@@ -382,6 +382,25 @@ Arrays
 * First Missing Positive	https://leetcode.com/problems/first-missing-positive/
 * Longest Consecutive Sequence	https://leetcode.com/problems/longest-consecutive-sequence/
 
+Graph / Tree Search (BFS/DFS)
+* Binary Tree Level Order Traversal II	https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+* Average of Levels in Binary Tree	https://leetcode.com/problems/average-of-levels-in-binary-tree/
+* Minimum Depth of Binary Tree	https://leetcode.com/problems/minimum-depth-of-binary-tree/
+* Clone Graph	https://leetcode.com/problems/clone-graph/
+* Pacific Atlantic Water Flow	https://leetcode.com/problems/pacific-atlantic-water-flow/
+* Number of Islands	https://leetcode.com/problems/number-of-islands/
+* Graph Valid Tree	https://leetcode.com/problems/graph-valid-tree/
+* Number of Connected Components in an Undirected Graph	https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+* Course Schedule	https://leetcode.com/problems/course-schedule/
+* Course Schedule II	https://leetcode.com/problems/course-schedule-ii/
+* Minimum Height Trees	https://leetcode.com/problems/minimum-height-trees/
+* Binary Tree Level Order Traversal	https://leetcode.com/problems/binary-tree-level-order-traversal/
+* Binary Tree Zigzag Level Order Traversal	https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+* Populating Next Right Pointers in Each Node	https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+* Populating Next Right Pointers in Each Node II	https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+* Binary Tree Right Side View	https://leetcode.com/problems/binary-tree-right-side-view/
+* All Nodes Distance K in Binary Tree	https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+
 Trie
 * Longest Word in Dictionary	https://leetcode.com/problems/longest-word-in-dictionary/
 * Index Pairs of a String	https://leetcode.com/problems/index-pairs-of-a-string/
