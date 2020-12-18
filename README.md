@@ -362,3 +362,14 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 169	Sort Items by Groups Respecting Dependencies	https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
 
 170	Median of Two Sorted Arrays	https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+
+
+**Question by Concept**
+
+Trie
+* https://leetcode.com/problems/implement-trie-prefix-tree/
+* https://leetcode.com/problems/design-search-autocomplete-system/
+* https://leetcode.com/problems/concatenated-words/
+* https://leetcode.com/problems/design-search-autocomplete-system/
+* https://leetcode.com/problems/prefix-and-suffix-search/
