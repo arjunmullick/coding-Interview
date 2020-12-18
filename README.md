@@ -367,6 +367,18 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 
 ## **Question by Concept**
 
+Arrays 
+* Longest Word in Dictionary	https://leetcode.com/problems/longest-word-in-dictionary/
+* Index Pairs of a String	https://leetcode.com/problems/index-pairs-of-a-string/
+* Implement Trie (Prefix Tree)	https://leetcode.com/problems/implement-trie-prefix-tree/
+* Maximum XOR of Two Numbers in an Array	https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array
+* Word Search II	https://leetcode.com/problems/word-search-ii/
+* Concatenated Words	https://leetcode.com/problems/concatenated-words/
+* Prefix and Suffix Search	https://leetcode.com/problems/prefix-and-suffix-search/
+* Palindrome Pairs	https://leetcode.com/problems/palindrome-pairs/
+* Design Search Autocomplete System	https://leetcode.com/problems/design-search-autocomplete-system/
+* Word Squares	https://leetcode.com/problems/word-squares/
+
 Trie
 * https://leetcode.com/problems/implement-trie-prefix-tree/
 * https://leetcode.com/problems/design-search-autocomplete-system/
