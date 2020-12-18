@@ -367,7 +367,7 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 
 ## **Question by Concept**
 
-Arrays 
+### Arrays 
 
 * Contains Duplicate	https://leetcode.com/problems/contains-duplicate/
 * Missing Number	https://leetcode.com/problems/missing-number/
@@ -382,12 +382,43 @@ Arrays
 * First Missing Positive	https://leetcode.com/problems/first-missing-positive/
 * Longest Consecutive Sequence	https://leetcode.com/problems/longest-consecutive-sequence/
 
-Backtracking 
+
+### Binary Search
+* Binary Search	https://leetcode.com/problems/binary-search/
+* Find Smallest Letter Greater Than Target	https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+* Peak Index in a Mountain Array	https://leetcode.com/problems/peak-index-in-a-mountain-array/
+* Find the Duplicate Number	https://leetcode.com/problems/find-the-duplicate-number/
+* Kth Smallest Element in a Sorted Matrix	https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+* Find Minimum in Rotated Sorted Array	https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+* Find Peak Element	https://leetcode.com/problems/find-peak-element/
+* Search in Rotated Sorted Array	https://leetcode.com/problems/search-in-rotated-sorted-array/
+* Search in Rotated Sorted Array II	https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+* Search a 2D Matrix	https://leetcode.com/problems/search-a-2d-matrix/
+* Search a 2D Matrix II	https://leetcode.com/problems/search-a-2d-matrix-ii/
+* Find K Closest Elements	https://leetcode.com/problems/find-k-closest-elements/
+* Count of Range Sum	https://leetcode.com/problems/count-of-range-sum/
+* Median of Two Sorted Arrays	https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+
+### Backtracking 
 * Word Search	https://leetcode.com/problems/word-search/
 * Letter Case Permutation	https://leetcode.com/problems/letter-case-permutation/
 * Subsets	https://leetcode.com/problems/subsets/
 * Subsets II	https://leetcode.com/problems/subsets-ii/
-* Permutations	https://leetcode.com/problems/permutations/
+* Permutations	https://leetcode.com/problems/permutations/* Binary Search	https://leetcode.com/problems/binary-search/
+* Find Smallest Letter Greater Than Target	https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+* Peak Index in a Mountain Array	https://leetcode.com/problems/peak-index-in-a-mountain-array/
+* Find the Duplicate Number	https://leetcode.com/problems/find-the-duplicate-number/
+* Kth Smallest Element in a Sorted Matrix	https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+* Find Minimum in Rotated Sorted Array	https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+* Find Peak Element	https://leetcode.com/problems/find-peak-element/
+* Search in Rotated Sorted Array	https://leetcode.com/problems/search-in-rotated-sorted-array/
+* Search in Rotated Sorted Array II	https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+* Search a 2D Matrix	https://leetcode.com/problems/search-a-2d-matrix/
+* Search a 2D Matrix II	https://leetcode.com/problems/search-a-2d-matrix-ii/
+* Find K Closest Elements	https://leetcode.com/problems/find-k-closest-elements/
+* Count of Range Sum	https://leetcode.com/problems/count-of-range-sum/
+* Median of Two Sorted Arrays	https://leetcode.com/problems/median-of-two-sorted-arrays/
 * Permutations II	https://leetcode.com/problems/permutations-ii/
 * Combinations	https://leetcode.com/problems/combinations/
 * Combination Sum	https://leetcode.com/problems/combination-sum/
@@ -400,7 +431,8 @@ Backtracking
 * Sudoku Solver	https://leetcode.com/problems/sudoku-solver/
 * N-Queens	https://leetcode.com/problems/n-queens/
 
-Graph / Tree Search (BFS/DFS)
+
+### Graph / Tree Search (BFS/DFS)
 * Binary Tree Level Order Traversal II	https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
 * Average of Levels in Binary Tree	https://leetcode.com/problems/average-of-levels-in-binary-tree/
 * Minimum Depth of Binary Tree	https://leetcode.com/problems/minimum-depth-of-binary-tree/
@@ -419,7 +451,7 @@ Graph / Tree Search (BFS/DFS)
 * Binary Tree Right Side View	https://leetcode.com/problems/binary-tree-right-side-view/
 * All Nodes Distance K in Binary Tree	https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 
-Trie
+### Trie
 * Longest Word in Dictionary	https://leetcode.com/problems/longest-word-in-dictionary/
 * Index Pairs of a String	https://leetcode.com/problems/index-pairs-of-a-string/
 * Implement Trie (Prefix Tree)	https://leetcode.com/problems/implement-trie-prefix-tree/
