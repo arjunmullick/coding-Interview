@@ -368,6 +368,21 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 ## **Question by Concept**
 
 Arrays 
+
+* Contains Duplicate	https://leetcode.com/problems/contains-duplicate/
+* Missing Number	https://leetcode.com/problems/missing-number/
+* Find All Numbers Disappeared in an Array	https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+* Single Number	https://leetcode.com/problems/single-number/
+* Product of Array Except Self	https://leetcode.com/problems/product-of-array-except-self/
+* Find the Duplicate Number	https://leetcode.com/problems/find-the-duplicate-number/
+* Find All Duplicates in an Array	https://leetcode.com/problems/find-all-duplicates-in-an-array/
+* Set Matrix Zeroes	https://leetcode.com/problems/set-matrix-zeroes/
+* Spiral Matrix	https://leetcode.com/problems/spiral-matrix/
+* Rotate Image	https://leetcode.com/problems/rotate-image/
+* First Missing Positive	https://leetcode.com/problems/first-missing-positive/
+* Longest Consecutive Sequence	https://leetcode.com/problems/longest-consecutive-sequence/
+
+Trie
 * Longest Word in Dictionary	https://leetcode.com/problems/longest-word-in-dictionary/
 * Index Pairs of a String	https://leetcode.com/problems/index-pairs-of-a-string/
 * Implement Trie (Prefix Tree)	https://leetcode.com/problems/implement-trie-prefix-tree/
@@ -378,10 +393,3 @@ Arrays
 * Palindrome Pairs	https://leetcode.com/problems/palindrome-pairs/
 * Design Search Autocomplete System	https://leetcode.com/problems/design-search-autocomplete-system/
 * Word Squares	https://leetcode.com/problems/word-squares/
-
-Trie
-* https://leetcode.com/problems/implement-trie-prefix-tree/
-* https://leetcode.com/problems/design-search-autocomplete-system/
-* https://leetcode.com/problems/concatenated-words/
-* https://leetcode.com/problems/design-search-autocomplete-system/
-* https://leetcode.com/problems/prefix-and-suffix-search/
