@@ -382,6 +382,24 @@ Arrays
 * First Missing Positive	https://leetcode.com/problems/first-missing-positive/
 * Longest Consecutive Sequence	https://leetcode.com/problems/longest-consecutive-sequence/
 
+Backtracking 
+* Word Search	https://leetcode.com/problems/word-search/
+* Letter Case Permutation	https://leetcode.com/problems/letter-case-permutation/
+* Subsets	https://leetcode.com/problems/subsets/
+* Subsets II	https://leetcode.com/problems/subsets-ii/
+* Permutations	https://leetcode.com/problems/permutations/
+* Permutations II	https://leetcode.com/problems/permutations-ii/
+* Combinations	https://leetcode.com/problems/combinations/
+* Combination Sum	https://leetcode.com/problems/combination-sum/
+* Combination Sum II	https://leetcode.com/problems/combination-sum-ii/
+* Combination Sum III	https://leetcode.com/problems/combination-sum-iii/
+* Generate Parentheses	https://leetcode.com/problems/generate-parentheses/
+* Palindrome Partitioning	https://leetcode.com/problems/palindrome-partitioning/
+* Letter Combinations of a Phone Number	https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+* Generalized Abbreviation	https://leetcode.com/problems/generalized-abbreviation/
+* Sudoku Solver	https://leetcode.com/problems/sudoku-solver/
+* N-Queens	https://leetcode.com/problems/n-queens/
+
 Graph / Tree Search (BFS/DFS)
 * Binary Tree Level Order Traversal II	https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
 * Average of Levels in Binary Tree	https://leetcode.com/problems/average-of-levels-in-binary-tree/
