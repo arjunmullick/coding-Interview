@@ -194,6 +194,9 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 * 170	Median of Two Sorted Arrays	https://leetcode.com/problems/median-of-two-sorted-arrays/
 
 
+## Additional Questions 
+* Sub Array Sub K https://leetcode.com/problems/subarray-sum-equals-k/
+
 
 ## **Question by Concept**
 
