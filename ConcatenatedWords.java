@@ -10,7 +10,8 @@ public class ConcatenatedWords {
 
         // Insert all in trie
         // For each word starting at root check till end
-        // whenever we find a word end start another search , we need only one search in subtree
+        // whenever we find a word-end start verify next string as subproblem
+        // if one recursion stack is true we add that string in result
         public List<String> findAllConcatenatedWordsInADict(String[] words) {
 
             List<String> result = new LinkedList<>();
@@ -60,12 +61,12 @@ public class ConcatenatedWords {
                 if(node.isWord){
                     if(i == word.length()-1){
                         // this is end of this word
-                        return count >=1; // atlease one word is found and we completed the string
+                        return count >=1; // there was one word before and we reached the end. This is sub problem
                     }
 
                     //verify next word from here
                     if(verify(word,i+1,count+1)) return true;
-                    //if second part do not verify its ok to continue to next character
+                    //Continue to next character
                 }
             }
             return false;
