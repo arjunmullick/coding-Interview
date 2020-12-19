@@ -10,7 +10,7 @@ public class DesignSearchAutocompleteSystem {
 
     class AutocompleteSystem {
         Trie trie;
-        String str; // sentance user is typing
+        String str; // sentence user is typing
         List<String> result;
 
         public AutocompleteSystem(String[] sentences, int[] times) {
