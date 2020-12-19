@@ -436,20 +436,46 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 * Binary Tree Level Order Traversal II	https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
 * Average of Levels in Binary Tree	https://leetcode.com/problems/average-of-levels-in-binary-tree/
 * Minimum Depth of Binary Tree	https://leetcode.com/problems/minimum-depth-of-binary-tree/
+* Same Tree	https://leetcode.com/problems/same-tree/
+* Path Sum	https://leetcode.com/problems/path-sum/
 * Clone Graph	https://leetcode.com/problems/clone-graph/
+* Merge Two Binary Trees	https://leetcode.com/problems/merge-two-binary-trees/
 * Pacific Atlantic Water Flow	https://leetcode.com/problems/pacific-atlantic-water-flow/
 * Number of Islands	https://leetcode.com/problems/number-of-islands/
 * Graph Valid Tree	https://leetcode.com/problems/graph-valid-tree/
+* Maximum Depth of Binary Tree	https://leetcode.com/problems/maximum-depth-of-binary-tree/
+* Lowest Common Ancestor of a Binary Search Tree	https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+* Subtree of Another Tree	https://leetcode.com/problems/subtree-of-another-tree/
+* Invert Binary Tree	https://leetcode.com/problems/invert-binary-tree/
+* Target Sum	https://leetcode.com/problems/target-sum/
+* Clone Graph	https://leetcode.com/problems/clone-graph/
+* Pacific Atlantic Water Flow	https://leetcode.com/problems/pacific-atlantic-water-flow/
+* Number of Islands	https://leetcode.com/problems/number-of-islands/
+* Number of Connected Components in an Undirected Graph	https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+* Kth Smallest Element in a BST	https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+* Binary Tree Right Side View	https://leetcode.com/problems/binary-tree-right-side-view/
+* All Nodes Distance K in Binary Tree	https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+* Path Sum II	https://leetcode.com/problems/path-sum-ii/
+* Path Sum III	https://leetcode.com/problems/path-sum-iii/
+* Lowest Common Ancestor of a Binary Tree	https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 * Number of Connected Components in an Undirected Graph	https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 * Course Schedule	https://leetcode.com/problems/course-schedule/
 * Course Schedule II	https://leetcode.com/problems/course-schedule-ii/
 * Minimum Height Trees	https://leetcode.com/problems/minimum-height-trees/
 * Binary Tree Level Order Traversal	https://leetcode.com/problems/binary-tree-level-order-traversal/
 * Binary Tree Zigzag Level Order Traversal	https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+* Validate Binary Search Tree	https://leetcode.com/problems/validate-binary-search-tree/
+* Maximum Width of Binary Tree	https://leetcode.com/problems/maximum-width-of-binary-tree/
 * Populating Next Right Pointers in Each Node	https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 * Populating Next Right Pointers in Each Node II	https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
 * Binary Tree Right Side View	https://leetcode.com/problems/binary-tree-right-side-view/
+* Binary Tree Maximum Path Sum	https://leetcode.com/problems/binary-tree-maximum-path-sum/
+* Construct Binary Tree from Preorder and Inorder Traversal	https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 * All Nodes Distance K in Binary Tree	https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+* Word Search II	https://leetcode.com/problems/word-search-ii/
+* Sort Items by Groups Respecting Dependencies	https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
+
+
 
 ### Trie
 * Longest Word in Dictionary	https://leetcode.com/problems/longest-word-in-dictionary/
