@@ -1,7 +1,4 @@
-# Interview
-
-Coding Interview Question
-
+# About
 
 These are the most popular coding interview question from easy to hard in order. 
 
@@ -23,6 +20,7 @@ The problem covers common pattern / algo in interview:
 https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
 
 
+### Coding Interview Question
 * 1	Contains Duplicate	https://leetcode.com/problems/contains-duplicate/
 * 2	Missing Number	https://leetcode.com/problems/missing-number/
 * 3	Find All Numbers Disappeared in an Array	https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
