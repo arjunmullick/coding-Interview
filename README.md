@@ -18,7 +18,8 @@ The problem covers common pattern / algo in interview:
 - Store one or more different values in the same pointer
 - Trie / Map
 
-Reference : 14 Patterns to Ace Any Coding Interview Question
+### Reference : 
+14 Patterns to Ace Any Coding Interview Question
 https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
 
 
