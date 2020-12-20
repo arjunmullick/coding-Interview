@@ -68,18 +68,5 @@ public class TargetSum {
             return dp[nums.length][sum + S];
 
         }
-
-        public void dfs(int [] nums , int target , int index , int currSum){
-            if(index == nums.length){
-                if(target == currSum){
-                    result = result+1;
-                }
-                return;
-            }
-
-            dfs(nums,target,index+1,currSum+nums[index]);
-            dfs(nums,target,index+1,currSum-nums[index]);
-        }
-    }
      */
 }
