@@ -4,6 +4,32 @@ public class TargetSum {
 
     class Solution {
 
+        //O(2^N) time and O(2^N) memory on stack
+        int result;
+        public int findTargetSumWays(int[] nums, int S) {
+            result = 0;
+            dfs(nums,S,0,0);
+            return result;
+
+        }
+
+        public void dfs(int [] nums , int target , int index , int currSum){
+            if(index == nums.length){
+                if(target == currSum){
+                    result = result+1;
+                }
+                return;
+            }
+
+            dfs(nums,target,index+1,currSum+nums[index]);
+            dfs(nums,target,index+1,currSum-nums[index]);
+        }
+    }
+
+    //Alternate Solution
+    /**
+    class Solution2 {
+
         //Time: O(n^2), Space: O(n^2)
         int result;
         public int findTargetSumWays(int[] nums, int S) {
@@ -55,30 +81,5 @@ public class TargetSum {
             dfs(nums,target,index+1,currSum-nums[index]);
         }
     }
-
-
-    //Alternate Solution
-    class Solution2 {
-
-        //O(2^N) time and O(2^N) memory on stack
-        int result;
-        public int findTargetSumWays(int[] nums, int S) {
-            result = 0;
-            dfs(nums,S,0,0);
-            return result;
-
-        }
-
-        public void dfs(int [] nums , int target , int index , int currSum){
-            if(index == nums.length){
-                if(target == currSum){
-                    result = result+1;
-                }
-                return;
-            }
-
-            dfs(nums,target,index+1,currSum+nums[index]);
-            dfs(nums,target,index+1,currSum-nums[index]);
-        }
-    }
+     */
 }
