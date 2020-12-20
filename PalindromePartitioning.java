@@ -5,15 +5,16 @@ import java.util.List;
 
 public class PalindromePartitioning {
 
-//Time Complexity :O (N  * 2^N) where N is the length of string ss.
+    //https://leetcode.com/problems/palindrome-partitioning/
+    //Time Complexity :O (N  * 2^N) where N is the length of string ss.
     class Solution {
         public List<List<String>> partition(String s) {
             List<List<String>> result = new ArrayList<>();
-            dfs(0,s,new ArrayList<>() , result);
+            backtrack(0,s,new ArrayList<>() , result);
             return result;
         }
 
-        public void dfs(int index, String s, List<String> list , List<List<String>> result){
+        public void backtrack(int index, String s, List<String> list , List<List<String>> result){
 
             if(index >= s.length()){
                 result.add(new ArrayList<>(list));
@@ -23,7 +24,7 @@ public class PalindromePartitioning {
                 String s1 = s.substring(index,i+1);
                 if(isPalindrome(s1)){
                     list.add(s1);
-                    dfs(i+1,s,list,result);
+                    backtrack(i+1,s,list,result);
                     list.remove(list.size()-1);
                 }
             }
