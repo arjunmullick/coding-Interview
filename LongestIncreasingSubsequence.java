@@ -3,7 +3,7 @@ package com.leetcode;
 import java.util.Arrays;
 
 public class LongestIncreasingSubsequence {
-
+    //https://leetcode.com/problems/longest-increasing-subsequence/
     class Solution {
 
         //[10,9,2,5,3,7,101,18]
@@ -37,6 +37,7 @@ public class LongestIncreasingSubsequence {
 }
 
 /**
+ * Good for discussion
  *
  *ALTERNATE APPROACH O(N LogN)
  *
