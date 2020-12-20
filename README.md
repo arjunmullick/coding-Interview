@@ -195,12 +195,11 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 
 ## Additional Questions 
 * Sub Array Sub K https://leetcode.com/problems/subarray-sum-equals-k/
-
+* Daily Temperatures https://leetcode.com/problems/daily-temperatures/
 
 ## **Question by Concept**
 
 ### Arrays 
-
 * Contains Duplicate	https://leetcode.com/problems/contains-duplicate/
 * Missing Number	https://leetcode.com/problems/missing-number/
 * Find All Numbers Disappeared in an Array	https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
