@@ -5,7 +5,7 @@ Coding Interview Question
 
 These are the most popular coding interview question from easy to hard in order. 
 
-The problem covers common pattern focused in interview:
+The problem covers common pattern / algo in interview:
 
 - Binary search
 - Two pointers
