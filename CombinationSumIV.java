@@ -12,7 +12,7 @@ import java.util.List;
 
 public class CombinationSumIV {
 
-    // Intuition - Generate and store  - more memory for sure . A backtracking algo will suite best
+    // Intuition - Generate and store  - more memory for sure . A backtracking Algo seems good
     // Memory exceed and TLE
     class Solution {
 
