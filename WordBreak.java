@@ -44,7 +44,7 @@ public class WordBreak {
 }
 
 /**
- * ALTERNATE APPROACH WITH SIMILARITY TO https://leetcode.com/problems/concatenated-words/
+ * ALTERNATE APPROACH SIMILAR TO https://leetcode.com/problems/concatenated-words/
  * TLE because of leetcode heavy case. Insert operation tradeoff
  *
  * Passe test case
