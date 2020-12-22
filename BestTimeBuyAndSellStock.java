@@ -1,5 +1,7 @@
 package com.leetcode;
 
+import java.util.Arrays;
+
 public class BestTimeBuyAndSellStock {
     //only one transaction
     //https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
@@ -61,6 +63,50 @@ public class BestTimeBuyAndSellStock {
 
             return sell[n-1];
 
+        }
+
+        //Best Time to Buy and Sell Stock IV
+
+        public int maxProfit(int k, int[] prices) {
+            if (prices == null || prices.length <= 1) return 0;
+            int[][] dp = new int[k+1][prices.length];
+
+            for (int j = 1; j < k+1 ; j++) {
+                int min = prices[0];
+                for (int i = 1; i < prices.length; i++) {
+                    min = Math.min(min, prices[i] - dp[j - 1][i - 1]);
+                    dp[j][i] = Math.max(dp[j][i - 1], prices[i] - min);
+                }
+            }
+            return dp[k][prices.length-1];
+        }
+        // Alternate  Best Time to Buy and Sell Stock IV
+        public int maxProfitState(int k, int[] prices) {
+            int buy[] = new int[k];
+            int sell[] = new int[k];
+
+            if(k <  1 || prices.length < 2) return 0;
+
+            if(k > (prices.length /2)){
+                //do as many transaction we want
+                int total = 0;
+                for(int i = 1 ; i< prices.length ; i++){
+                    total += Math.max(0,prices[i] - prices[i-1]);
+                }
+                return total;
+            }
+
+
+            Arrays.fill(buy,Integer.MIN_VALUE);
+            for(int p : prices){
+                buy[0] = Math.max(buy[0] , -p);
+                sell[0] = Math.max(sell[0] , p + buy[0]);
+                for(int i = 1 ; i < k ; i++){
+                    buy[i] = Math.max(buy[i] , sell[i-1] -p);
+                    sell[i] = Math.max(sell[i] , buy[i] + p);
+                }
+            }
+            return sell[k-1];
         }
     }
 }
