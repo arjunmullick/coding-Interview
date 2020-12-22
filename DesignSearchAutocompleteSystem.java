@@ -1,3 +1,5 @@
+package com.leetcode;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -6,7 +8,7 @@ import java.util.Queue;
 
 class AutocompleteSystem {
     Trie trie;
-    String str; // sentance user is typing 
+    String str; // sentence user is typing
     List<String> result;
 
     public AutocompleteSystem(String[] sentences, int[] times) {
@@ -24,7 +26,7 @@ class AutocompleteSystem {
         if(c == '#'){
             trie.insert(str);
             str = "";
-            //return result 
+            //return result
         }
 
         //this is a bad string do not record
@@ -40,127 +42,126 @@ class AutocompleteSystem {
 
         return trie.top3HotWords(str);
     }
-}
 
-class Trie{
+    class Trie{
 
-    TrieNode root;
+        TrieNode root;
 
-    public Trie(){
-        root = new TrieNode();
-    }
-
-    //for initial insert by weight
-    public void insert(String word, int weight){
-        TrieNode node = this.root;
-        for(int i = 0 ; i < word.length() ; i++){
-            char ch = word.charAt(i);
-            TrieNode next = node.childs.getOrDefault(ch,new TrieNode());
-            node.childs.put(ch , next);
-            node = next;
+        public Trie(){
+            root = new TrieNode();
         }
-        node.isWord = true;
-        node.word = word;
-        node.weight = weight;
-    }
 
-    //insert to update a historical count - mostly copy of above 
-    //can call this method add
-    public void insert(String word){
-        TrieNode node = this.root;
-        for(int i = 0 ; i < word.length() ; i++){
-            char ch = word.charAt(i);
-            TrieNode next = node.childs.getOrDefault(ch,new TrieNode());
-            node.childs.put(ch , next);
-            node = next;
-        }
-        node.isWord = true;
-        node.word = word;
-        node.weight = node.weight+1;
-    }
-
-    //contains prefix
-    public boolean contains(String prefix){
-        TrieNode node = this.root;
-        for(int i = 0 ; i < prefix.length() ; i++){
-            char ch = prefix.charAt(i);
-            if(!node.childs.containsKey(ch)) return false;
-            TrieNode next = node.childs.getOrDefault(ch,new TrieNode());
-            node = next;
-        }
-        return true;
-    }
-
-    // 
-    public List<String> top3HotWords(String prefix){
-        if(!contains(prefix)) return new LinkedList<>();
-        TrieNode node = this.root;
-        for(int i = 0 ; i < prefix.length() ; i++){
-            char ch = prefix.charAt(i);
-            TrieNode next = node.childs.getOrDefault(ch,new TrieNode());
-            node = next;
-        }
-        //get all words starting at node 
-        //search all string with prefix and keep them in min Heap for size 3
-        PriorityQueue<PQNode> minHeap = new PriorityQueue<>((a, b) -> (compare(a,b)));
-        Queue<TrieNode> queue = new LinkedList<>();
-        queue.offer(node);//starting root is node
-        while(queue.size() >0){
-            Queue<TrieNode> level = new LinkedList<>();
-            while(queue.size() >0){
-                node = queue.poll();
-                if(node.isWord)
-                    minHeap.add(new PQNode(node.word,node.weight));
-                if(minHeap.size() > 3)
-                    minHeap.poll();
-                for(TrieNode child : node.childs.values()){
-                    level.offer(child);
-                }
+        //for initial insert by weight
+        public void insert(String word, int weight){
+            TrieNode node = this.root;
+            for(int i = 0 ; i < word.length() ; i++){
+                char ch = word.charAt(i);
+                TrieNode next = node.childs.getOrDefault(ch,new TrieNode());
+                node.childs.put(ch , next);
+                node = next;
             }
-            queue = level;
+            node.isWord = true;
+            node.word = word;
+            node.weight = weight;
         }
 
-        List<String> result = new LinkedList<>();
-        while(minHeap.size() > 0){
-            PQNode n = minHeap.peek();
-            result.add(0,n.word);
-            minHeap.poll();
+        //insert to update a historical count - mostly copy of above
+        //can call this method add
+        public void insert(String word){
+            TrieNode node = this.root;
+            for(int i = 0 ; i < word.length() ; i++){
+                char ch = word.charAt(i);
+                TrieNode next = node.childs.getOrDefault(ch,new TrieNode());
+                node.childs.put(ch , next);
+                node = next;
+            }
+            node.isWord = true;
+            node.word = word;
+            node.weight = node.weight+1;
         }
-        return result;
+
+        //contains prefix
+        public boolean contains(String prefix){
+            TrieNode node = this.root;
+            for(int i = 0 ; i < prefix.length() ; i++){
+                char ch = prefix.charAt(i);
+                if(!node.childs.containsKey(ch)) return false;
+                TrieNode next = node.childs.getOrDefault(ch,new TrieNode());
+                node = next;
+            }
+            return true;
+        }
+
+        //
+        public List<String> top3HotWords(String prefix){
+            if(!contains(prefix)) return new LinkedList<>();
+            TrieNode node = this.root;
+            for(int i = 0 ; i < prefix.length() ; i++){
+                char ch = prefix.charAt(i);
+                TrieNode next = node.childs.getOrDefault(ch,new TrieNode());
+                node = next;
+            }
+            //get all words starting at node
+            //search all string with prefix and keep them in min Heap for size 3
+            PriorityQueue<PQNode> minHeap = new PriorityQueue<>((a, b) -> (compare(a,b)));
+            Queue<TrieNode> queue = new LinkedList<>();
+            queue.offer(node);//starting root is node
+            while(queue.size() >0){
+                Queue<TrieNode> level = new LinkedList<>();
+                while(queue.size() >0){
+                    node = queue.poll();
+                    if(node.isWord)
+                        minHeap.add(new PQNode(node.word,node.weight));
+                    if(minHeap.size() > 3)
+                        minHeap.poll();
+                    for(TrieNode child : node.childs.values()){
+                        level.offer(child);
+                    }
+                }
+                queue = level;
+            }
+
+            List<String> result = new LinkedList<>();
+            while(minHeap.size() > 0){
+                PQNode n = minHeap.peek();
+                result.add(0,n.word);
+                minHeap.poll();
+            }
+            return result;
+        }
+
+        private int compare(PQNode a, PQNode b){
+            int diff = (a.count - b.count);
+            if(diff != 0) return diff;
+            return b.word.compareTo(a.word);//lexi order if count equal
+
+        }
+
     }
 
-    private int compare(PQNode a, PQNode b){
-        int diff = (a.count - b.count);
-        if(diff != 0) return diff;
-        return b.word.compareTo(a.word);//lexi order if count equal
+    class TrieNode{
 
+        String word;
+        boolean isWord;
+        int weight;
+        HashMap<Character,TrieNode> childs;
+
+        public TrieNode(){
+            childs = new HashMap<>();
+            word = "";
+        }
     }
 
+    class PQNode{
+        String word;
+        int count;
+
+        public PQNode(String word , int count){
+            this.word = word;
+            this.count = count;
+        }
+    }
 }
-
-class TrieNode{
-
-    String word;
-    boolean isWord;
-    int weight;
-    HashMap<Character,TrieNode> childs;
-
-    public TrieNode(){
-        childs = new HashMap<>();
-        word = "";
-    }
-}
-
-class PQNode{
-    String word;
-    int count;
-
-    public PQNode(String word , int count){
-        this.word = word;
-        this.count = count;
-    }
-}
-
 
 
 
