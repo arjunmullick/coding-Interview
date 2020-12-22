@@ -27,7 +27,7 @@ public class LongestIncreasingSubsequence {
             }
             int result = 0;
             for(int i = 0 ; i < memo.length ; i++){
-                System.out.print(memo[i] + " ");
+                //System.out.print(memo[i] + " ");
                 result = Math.max(result,memo[i]);
             }
             return result;
