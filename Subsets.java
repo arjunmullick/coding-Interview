@@ -2,7 +2,7 @@ package com.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
-//O(N×2N) Space and same O(N×2N) Time
+//O(N×2^N) Space and same O(N×2^N) Time
 public class Subsets {
     //https://leetcode.com/problems/subsets/
     class Solution {
