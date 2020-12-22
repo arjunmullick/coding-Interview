@@ -2,6 +2,23 @@ package com.leetcode;
 
 import java.util.Arrays;
 
+
+/*
+
+One way to look for LIS is below, start  search starting at each j from i+1 to n
+            for(int i = 0 ; i < nums.length ; i++)
+                for(int j = i+1 ; j < nums.length ; j++)
+                    if(nums[j] > nums[i]){
+                        memo[j] = Math.max(memo[j] , memo[i]+1);
+and other  way could be to see sequence ending at i instead of tarting at j
+            for (int i = 0; i < n; i++) {
+                for (int j = i-1; j >= 0; j--)
+                  if (nums[j] < nums[i])
+                    memo[i] = Math.max(memo[j]+1,memo[i])
+
+The second help get the count at i much easily
+ */
+
 public class NumberLongestIncreasingSubsequence {
     //https://leetcode.com/problems/number-of-longest-increasing-subsequence/
     class Solution {
