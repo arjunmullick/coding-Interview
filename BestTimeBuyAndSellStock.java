@@ -66,7 +66,7 @@ public class BestTimeBuyAndSellStock {
         }
 
         //Best Time to Buy and Sell Stock IV
-
+        //https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
         public int maxProfit(int k, int[] prices) {
             if (prices == null || prices.length <= 1) return 0;
             int[][] dp = new int[k+1][prices.length];
@@ -81,6 +81,7 @@ public class BestTimeBuyAndSellStock {
             return dp[k][prices.length-1];
         }
         // Alternate  Best Time to Buy and Sell Stock IV
+        // https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
         public int maxProfitState(int k, int[] prices) {
             int buy[] = new int[k];
             int sell[] = new int[k];
