@@ -102,7 +102,7 @@ public class GraphValidTree {
 
         }
     }
-
+    //O(N)
     class SolutionDFSOptimized {
 
         //DFS/ BFS optimized
@@ -145,4 +145,57 @@ public class GraphValidTree {
 
         }
     }
+    //O(N)
+    class SolutionUnionFind {
+        public boolean validTree(int n, int[][] edges) {
+
+            if(edges.length != n -1) return false;
+
+            UnionFind unionFind = new UnionFind(n);
+
+            for (int[] edge : edges) {
+                int a = edge[0];
+                int b = edge[1];
+                if(!unionFind.union(a,b)){
+                    return false;
+                }
+            }
+
+            // If we are successfully able to merge all edges then no cycle
+            return true;
+
+        }
+
+        class UnionFind{
+            int[] parent;
+
+            public UnionFind(int n){
+                parent = new int[n];
+                for(int i = 0 ; i < n ; i++){
+                    parent[i] = i;//n disjoint sets with each node parent to self
+                }
+            }
+
+            //find and merge the set
+            public int find(int node){
+                while(parent[node] != node){
+                    node = parent[node];
+                }
+                return node;//trace the parent
+            }
+
+            public boolean union(int a , int b){
+                int parentA = find(a);
+                int parentB = find(b);
+                //if same set already
+                if(parentA == parentB){
+                    return false;
+                }
+                //merge
+                parent[parentA] = parentB;
+                return true;
+            }
+        }
+    }
+
 }
