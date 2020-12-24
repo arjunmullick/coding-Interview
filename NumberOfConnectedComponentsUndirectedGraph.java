@@ -100,7 +100,7 @@ public class NumberOfConnectedComponentsUndirectedGraph {
                     count++;//a union operation
                 }
             }
-            //n-1 connection measn fully connected
+            //n-1 connection means fully connected
             return n - count;
         }
     }
