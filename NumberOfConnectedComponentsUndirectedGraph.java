@@ -86,6 +86,8 @@ public class NumberOfConnectedComponentsUndirectedGraph {
         }
     }
 
+
+    //O(N)
     class Solution {
         //UnionFind
         public int countComponents(int n, int[][] edges) {
@@ -102,6 +104,9 @@ public class NumberOfConnectedComponentsUndirectedGraph {
             return n - count;
         }
     }
+
+
+
     class UnionFind {
         int [] parent;
 
