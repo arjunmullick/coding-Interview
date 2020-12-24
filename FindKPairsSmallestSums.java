@@ -36,7 +36,7 @@ public class FindKPairsSmallestSums {
                 System.out.println(node.r+ " " + node.c);
                 int r = node.r;
                 int c = node.c;
-                if(visited[r][c]) continue; // already addded this pair
+                if(visited[r][c]) continue; // already added this pair
 
                 visited[r][c] = true;
 
