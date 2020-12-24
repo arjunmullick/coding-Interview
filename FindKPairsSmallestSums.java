@@ -9,7 +9,7 @@ public class FindKPairsSmallestSums {
     class Solution {
         /**
          nums1 = [1,1,2], nums2 = [1,2,3], k = 2
-         1    2    3
+              1      2    3
          1  (1,1) (1,2) (1,3)
 
          1  (1,1) (1,2) (1,3)
