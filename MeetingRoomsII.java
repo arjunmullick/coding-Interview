@@ -29,8 +29,8 @@ public class MeetingRoomsII {
         public int minMeetingRooms(int[][] intervals) {
             if(intervals.length  <= 1) return intervals.length;  // 0 means no meeting room.
 
-            Arrays.sort(intervals,(a,b)->(a[0] - b[0]));//sort them
-            PriorityQueue<int[]> minHeap = new PriorityQueue<>((a,b)->(a[1] - b[1]));
+            Arrays.sort(intervals,(a,b)->(a[0] - b[0]));//sort them by start time
+            PriorityQueue<int[]> minHeap = new PriorityQueue<>((a,b)->(a[1] - b[1])); // minHeap by end time
 
             minHeap.offer(intervals[0]);//first room with min start time
             int n = intervals.length;
