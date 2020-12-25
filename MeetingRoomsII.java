@@ -20,6 +20,10 @@ public class MeetingRoomsII {
          |---------------|
          |--------|
 
+         |-------| - room 1
+              |---------------| - room 2
+                          |--------|  - this will free room 1 and heap size is 2 again
+
          **/
 
         public int minMeetingRooms(int[][] intervals) {
