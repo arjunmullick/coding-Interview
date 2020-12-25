@@ -1,0 +1,49 @@
+package com.leetcode;
+
+import java.util.Arrays;
+import java.util.PriorityQueue;
+
+public class MeetingRoomsII {
+
+    class Solution {
+
+        /**
+
+         |---------|
+         |---------|
+
+         |-------|
+         |-----------|
+
+         more than one overlap
+         |-------|
+         |---------------|
+         |--------|
+
+         **/
+
+        public int minMeetingRooms(int[][] intervals) {
+            if(intervals.length  <= 1) return intervals.length;  // 0 means no meeting room.
+
+            Arrays.sort(intervals,(a,b)->(a[0] - b[0]));//sort them
+            PriorityQueue<int[]> minHeap = new PriorityQueue<>((a,b)->(a[1] - b[1]));
+
+            minHeap.offer(intervals[0]);//first room with min start time
+            int n = intervals.length;
+            for(int i = 1 ; i < n ; i++){
+                int prev[] = minHeap.peek();//last event about to end or ended
+                int next[] = intervals[i];//next upcoming event
+                if(prev[1] <= next[0]){
+                    // no overlap mean prev meeting ended and we have a free room for the 'next' interval
+                    minHeap.poll();
+                }
+                //IMP : if room not free(poll) then we are increasing a count of room
+                // to easily understand its just count++ but its same as items remaining in minHeap
+                minHeap.offer(next);
+            }
+
+            return minHeap.size();
+
+        }
+    }
+}
