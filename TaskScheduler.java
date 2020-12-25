@@ -8,6 +8,10 @@ import java.util.PriorityQueue;
 
 public class TaskScheduler {
     class Solution {
+        //Complete the task type(A-Z) with max count first followed by second most
+        //complete n such operations unless we encounter first task type. if incounter add n time
+        //to check encounter or not better poll the task from DS to another DS.
+        //We only require count if we are using 2 datascructure to see visited and to be done
         public int leastInterval(char[] tasks, int n) {
             Map<Character,Integer> charCount= new HashMap<>();
 
@@ -15,7 +19,7 @@ public class TaskScheduler {
                 charCount.put(ch,charCount.getOrDefault(ch,0)+1);
             }
 
-            PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> (b-a));
+            PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b) -> (b-a));
             for(char key : charCount.keySet()){
                 int value = charCount.get(key);
                 maxHeap.offer(value);
@@ -37,7 +41,7 @@ public class TaskScheduler {
                 if(nextCycle.size() == 0){
                     result +=  (n-count);
                 }else{
-                    result+= n+1;
+                    result+= n+1;// n+1 task in each cycle
                 }
 
 
