@@ -38,7 +38,7 @@ public class NonOverlappingIntervals {
 
             //From above condition sorting intervals first helps reduce condition
             //if overlap remove the one whose end time is greater remove b when b[1] > a[1]
-            // [1,2][2,3] are not overlappiing
+            // [1,2][2,3] are not overlapping
             if(intervals.length <= 1) return 0;
             Arrays.sort(intervals, (a, b) -> (a[0] - b[0]));//sort by start time
 
