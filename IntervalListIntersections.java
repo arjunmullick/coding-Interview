@@ -5,9 +5,8 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class IntervalListIntersections {
-
+    //https://leetcode.com/problems/interval-list-intersections/
     /*
-    After adding all in minHeap with startTime sorted
     Condition 1 :
     |------------|
         |------------|
@@ -80,7 +79,7 @@ public class IntervalListIntersections {
 
     //Time O(MlogM + NlogN) Memory O(M+N)
     class SolutionMinHeap {
-
+        //    After adding all in minHeap with startTime sorted
 
         public int[][] intervalIntersection(int[][] A, int[][] B) {
             if(A.length == 0) return A;//empty
