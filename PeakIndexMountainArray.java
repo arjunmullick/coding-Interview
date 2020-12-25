@@ -3,7 +3,7 @@ package interview;
 public class PeakIndexMountainArray {
 
     //https://leetcode.com/problems/peak-index-in-a-mountain-array/
-
+    //Also refer https://leetcode.com/problems/find-peak-element/
     class Solution {
         public int peakIndexInMountainArray(int[] arr) {
 
@@ -21,7 +21,7 @@ public class PeakIndexMountainArray {
                     r = mid;
                 }
             }
-            return r;
+            return r; // or return l;
         }
     }
 
