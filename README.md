@@ -319,3 +319,6 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 * Palindrome Pairs	https://leetcode.com/problems/palindrome-pairs/
 * Design Search Autocomplete System	https://leetcode.com/problems/design-search-autocomplete-system/
 * Word Squares	https://leetcode.com/problems/word-squares/
+
+TreeMap and Interval Tree
+* How to solve with interval tree https://leetcode.com/problems/insert-interval/
