@@ -25,4 +25,18 @@ public class Search2DMatrix {
             return false;
         }
     }
+
+    /**If asked binary search method , TLE
+     *         int l = 0;
+     *         int r = m*n - 1;
+     *         while(l<=r){
+     *             int mid = l + (r-l)/2;
+     *             int val = matrix[mid/m][mid % m];
+     *             if (matrix[mid / m][mid % m] < target)
+     *                 l = mid + 1;
+     *             else
+     *                 r = mid;
+     *         }
+     *         return matrix[r / m][r % m] == target;
+     */
 }
