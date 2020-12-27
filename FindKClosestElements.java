@@ -15,6 +15,9 @@ public class FindKClosestElements {
         Output = [1,2,3,4]
 
      */
+    //x-valMid = val[mid+k] - x means we are at rgith position at middle
+    //x-valMid < val[mid+k] val mid is too big
+    //x-valMid > val[mid+k] mid is small
     class Solution {
         public List<Integer> findClosestElements(int[] arr, int k, int x) {
             int n = arr.length;
