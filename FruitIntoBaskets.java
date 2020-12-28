@@ -4,12 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FruitIntoBaskets {
-
+    //https://leetcode.com/problems/fruit-into-baskets
     class Solution {
-        // This is Longest Subarray With 2 Elements
+        // This is Longest Subarray with 2 Elements
         //You have two baskets, and each basket can carry any quantity of fruit, but you want each basket to only carry one type of fruit each.
         //starting at any type of tree find maz fruit can be collected
-
 
         public int totalFruit(int[] tree) {
             Map<Integer, Integer> count = new HashMap<>();
@@ -33,12 +32,7 @@ public class FruitIntoBaskets {
 
 
     //Alternatively we dont need a left pointer to traverse till all tree[l] are removed
-    //we can keep length counted as
     class Solution2 {
-        // This is Longest Subarray With 2 Elements
-        //You have two baskets, and each basket can carry any quantity of fruit, but you want each basket to only carry one type of fruit each.
-        //starting at any type of tree find maz fruit can be collected
-
 
         public int totalFruit(int[] tree) {
             Map<Integer, Integer> count = new HashMap<>();
