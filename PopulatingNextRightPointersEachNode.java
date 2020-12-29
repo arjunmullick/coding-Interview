@@ -37,6 +37,31 @@ public class PopulatingNextRightPointersEachNode {
             return root;
         }
     }
+    
+    //Optimized memory
+    class Solution2 {
+        public Node connect(Node root) {
+            if(root == null) return null;
+
+            Queue<Node> queue = new LinkedList<>();
+            queue.offer(root);
+
+            while(queue.size() >0){
+                int size = queue.size();
+                while(size > 0){
+                    Node node = queue.poll();
+                    size--;
+                    if(size > 0){
+                        node.next = queue.peek();
+                    }
+                    if(node.left != null) queue.add(node.left);
+                    if(node.right != null) queue.add(node.right);
+                }
+            }
+            return root;
+
+        }
+    }
 
     // Definition for a Node.
     class Node {
