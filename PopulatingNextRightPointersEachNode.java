@@ -17,13 +17,16 @@ public class PopulatingNextRightPointersEachNode {
                 LinkedList<Node> level = new LinkedList<>();
                 while(queue.size() > 0){
                     Node node = queue.poll();
+                    if(queue.size() > 0){
+                        node.next = queue.peek();
+                    }
                     if(node.left != null) level.add(node.left);
                     if(node.right != null) level.add(node.right);
                 }
-                for(int i = 0 ; i < level.size() -1 ; i++){
-                    Node n = level.get(i);
-                    n.next = level.get(i+1);
-                }
+                //for(int i = 0 ; i < level.size() -1 ; i++){
+                //    Node n = level.get(i);
+                //    n.next = level.get(i+1);
+                //}
                 queue = level;
             }
             return root;
