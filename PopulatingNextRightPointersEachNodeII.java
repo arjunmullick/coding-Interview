@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class PopulatingNextRightPointersEachNodeII {
-    //https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+    //https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
     /* last level contains N/2N/2 nodes. The space complexity for breadth first traversal
     is the maximum space occupied and the space occupied by the queue is dependent upon the
     maximum number of nodes in particular level.
