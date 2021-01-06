@@ -81,3 +81,36 @@
 |                                          | Median of Two Sorted Arrays              | Swap Nodes in Pairs                |                                                             |
 |                                          |                                          | Odd Even Linked List               |                                                             |
 |                                          |                                          | Reverse Nodes in k-Group           |                                                             |
+
+
+| Heap / PriorityQueue                          | Sliding window                                              | Two Pointers                       |
+|-----------------------------------------------|-------------------------------------------------------------|------------------------------------|
+| Task Scheduler                                | Minimum Size Subarray Sum                                   | Merge Two Sorted Lists             |
+| Minimum Number of Arrows to Burst Balloons    | Fruit Into Baskets                                          | Two Sum                            |
+| Reorganize String                             | Permutation in String                                       | Squares of a Sorted Array          |
+|  Employee Free Time                           | Longest Repeating Character Replacement                     | Backspace String Compare           |
+|  Rearrange String k Distance Apart            | Longest Substring Without Repeating Characters              | Find the Duplicate Number          |
+| Course Schedule III                           | Sliding Window Maximum                                      | 3 Sum                              |
+| Kth Smallest Element in a Sorted Matrix       | Minimum Number of K Consecutive Bit Flips                   | 3 Sum Closest                      |
+| Find K Pairs with Smallest Sums               | Count Unique Characters of All Substrings of a Given String | Subarrays with Product Less than K |
+|  Meeting Rooms II                             | Minimum Window Substring                                    | Sort Colours                       |
+| Task Scheduler                                | Substring with Concatenation of All Words                   | Container With Most Water          |
+| K Closest Points to Origin                    |                                                             | Trapping Rain Water                |
+| Top K Frequent Elements                       |                                                             |                                    |
+| Sort Characters By Frequency                  |                                                             |                                    |
+| Kth Largest Element in an Array               |                                                             |                                    |
+| Reorganize String                             |                                                             |                                    |
+| Merge k Sorted Lists                          |                                                             |                                    |
+| Smallest Range Covering Elements from K Lists |                                                             |                                    |
+|  Employee Free Time                           |                                                             |                                    |
+|  Rearrange String k Distance Apart            |                                                             |                                    |
+| Course Schedule III                           |                                                             |                                    |
+| Maximum Frequency Stack                       |                                                             |                                    |
+| Find Median from Data Stream                  |                                                             |                                    |
+| Sliding Window Median                         |                                                             |                                    |
+|  Meeting Rooms                                |                                                             |                                    |
+| Merge Intervals                               |                                                             |                                    |
+| Interval List Intersections                   |                                                             |                                    |
+| Non-overlapping Intervals                     |                                                             |                                    |
+|  Meeting Rooms II                             |                                                             |                                    |
+| Insert Interval                               |                                                             |                                    |
