@@ -284,7 +284,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Letter Case Permutation	](https://leetcode.com/problems/letter-case-permutation/)
 * [Subsets	](https://leetcode.com/problems/subsets/)
 * [Subsets II	](https://leetcode.com/problems/subsets-ii/)
-* [Permutations	](https://leetcode.com/problems/permutations/* Binary Search	](https://leetcode.com/problems/binary-search/)
+* [Permutations	](https://leetcode.com/problems/permutations/)
 * [Find Smallest Letter Greater Than Target	](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
 * [Peak Index in a Mountain Array	](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
 * [Find the Duplicate Number	](https://leetcode.com/problems/find-the-duplicate-number/)
