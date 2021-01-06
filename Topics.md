@@ -34,34 +34,33 @@
 
 
 
+|                                       | Recursion                                     |                                        |
+|---------------------------------------|-----------------------------------------------|----------------------------------------|
+| Backtracking                          | DP                                            | Trie                                   |
+| Word Search                           | Climbing Stairs                               | Longest Word in Dictionary             |
+| Letter Case Permutation               | Best Time to Buy and Sell Stock               |  Index Pairs of a String               |
+| Subsets                               | Maximum Subarray                              | Implement Trie (Prefix Tree)           |
+| Subsets II                            | Range Sum Query - Immutable                   | Maximum XOR of Two Numbers in an Array |
+| Permutations                          | Target Sum                                    | Word Search II                         |
+| Permutations II                       | House Robber                                  | Concatenated Words                     |
+| Combinations                          | House Robber II                               | Prefix and Suffix Search               |
+| Combination Sum                       | Coin Change                                   | Palindrome Pairs                       |
+| Combination Sum II                    | Maximum Product Subarray                      |  Design Search Autocomplete System     |
+| Combination Sum III                   | Longest Increasing Subsequence                |  Word Squares                          |
+| Generate Parentheses                  | Longest Palindromic Substring                 |                                        |
+| Palindrome Partitioning               | Word Break                                    |                                        |
+| Letter Combinations of a Phone Number | Combination Sum IV                            |                                        |
+|  Generalized Abbreviation             | Decode Ways                                   |                                        |
+| Sudoku Solver                         | Unique Paths                                  |                                        |
+| N-Queens                              | Jump Game                                     |                                        |
+|                                       | Palindromic Substrings                        |                                        |
+|                                       | Number of Longest Increasing Subsequence      |                                        |
+|                                       | Partition Equal Subset Sum                    |                                        |
+|                                       | Partition to K Equal Sum Subsets              |                                        |
+|                                       | Best Time to Buy and Sell Stock with Cooldown |                                        |
+|                                       | Counting Bits                                 |                                        |
 
-
-| Recursion                             |                                               |
-|---------------------------------------|-----------------------------------------------|
-| Backtracking                          | DP                                            |
-| Word Search                           | Climbing Stairs                               |
-| Letter Case Permutation               | Best Time to Buy and Sell Stock               |
-| Subsets                               | Maximum Subarray                              |
-| Subsets II                            | Range Sum Query - Immutable                   |
-| Permutations                          | Target Sum                                    |
-| Permutations II                       | House Robber                                  |
-| Combinations                          | House Robber II                               |
-| Combination Sum                       | Coin Change                                   |
-| Combination Sum II                    | Maximum Product Subarray                      |
-| Combination Sum III                   | Longest Increasing Subsequence                |
-| Generate Parentheses                  | Longest Palindromic Substring                 |
-| Palindrome Partitioning               | Word Break                                    |
-| Letter Combinations of a Phone Number | Combination Sum IV                            |
-|  Generalized Abbreviation             | Decode Ways                                   |
-| Sudoku Solver                         | Unique Paths                                  |
-| N-Queens                              | Jump Game                                     |
-|                                       | Palindromic Substrings                        |
-|                                       | Number of Longest Increasing Subsequence      |
-|                                       | Partition Equal Subset Sum                    |
-|                                       | Partition to K Equal Sum Subsets              |
-|                                       | Best Time to Buy and Sell Stock with Cooldown |
-|                                       | Counting Bits                                 |
-
+------------------------------------------------------------------------------------------------------------------------------
 
 | Arrays                                   | Binary Search                            | Linked List / Pointers             | Sliding window                                              |
 |------------------------------------------|------------------------------------------|------------------------------------|-------------------------------------------------------------|
