@@ -61,3 +61,23 @@
 |                                       | Partition to K Equal Sum Subsets              |
 |                                       | Best Time to Buy and Sell Stock with Cooldown |
 |                                       | Counting Bits                                 |
+
+
+| Arrays                                   | Binary Search                            | Linked List / Pointers             |  | Sliding window                                              |
+|------------------------------------------|------------------------------------------|------------------------------------|--|-------------------------------------------------------------|
+| Contains Duplicate                       | Binary Search                            | Linked List Cycle                  |  | Minimum Size Subarray Sum                                   |
+| Missing Number                           | Find Smallest Letter Greater Than Target | Middle of the Linked List          |  | Fruit Into Baskets                                          |
+| Find All Numbers Disappeared in an Array | Peak Index in a Mountain Array           | Palindrome Linked List             |  | Permutation in String                                       |
+| Single Number                            | Find the Duplicate Number                | Remove Linked List Elements        |  | Longest Repeating Character Replacement                     |
+| Product of Array Except Self             | Kth Smallest Element in a Sorted Matrix  | Remove Duplicates from Sorted List |  | Longest Substring Without Repeating Characters              |
+| Find the Duplicate Number                | Find Minimum in Rotated Sorted Array     | Linked List Cycle II               |  | Sliding Window Maximum                                      |
+| Find All Duplicates in an Array          | Find Peak Element                        | Add Two Numbers                    |  | Minimum Number of K Consecutive Bit Flips                   |
+| Set Matrix Zeroes                        | Search in Rotated Sorted Array           | Remove Nth Node From End Of List   |  | Count Unique Characters of All Substrings of a Given String |
+| Spiral Matrix                            | Search in Rotated Sorted Array II        | Sort List                          |  | Minimum Window Substring                                    |
+| Rotate Image                             | Search a 2D Matrix                       | Reorder List                       |  | Substring with Concatenation of All Words                   |
+| First Missing Positive                   | Search a 2D Matrix II                    | Reverse Linked List                |  |                                                             |
+| Longest Consecutive Sequence             | Find K Closest Elements                  | Reverse Linked List II             |  |                                                             |
+|                                          | Count of Range Sum                       | Rotate List                        |  |                                                             |
+|                                          | Median of Two Sorted Arrays              | Swap Nodes in Pairs                |  |                                                             |
+|                                          |                                          | Odd Even Linked List               |  |                                                             |
+|                                          |                                          | Reverse Nodes in k-Group           |  |                                                             |
