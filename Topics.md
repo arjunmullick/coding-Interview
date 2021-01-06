@@ -31,3 +31,33 @@
 |                                                        | Binary Tree Maximum Path Sum                              |                                              |                                                        |
 |                                                        | Word Search II                                            |                                              |                                                        |
 |                                                        | Sort Items by Groups Respecting Dependencies              |                                              |                                                        |
+
+
+
+
+
+| Recursion                             |                                               |
+|---------------------------------------|-----------------------------------------------|
+| Backtracking                          | DP                                            |
+| Word Search                           | Climbing Stairs                               |
+| Letter Case Permutation               | Best Time to Buy and Sell Stock               |
+| Subsets                               | Maximum Subarray                              |
+| Subsets II                            | Range Sum Query - Immutable                   |
+| Permutations                          | Target Sum                                    |
+| Permutations II                       | House Robber                                  |
+| Combinations                          | House Robber II                               |
+| Combination Sum                       | Coin Change                                   |
+| Combination Sum II                    | Maximum Product Subarray                      |
+| Combination Sum III                   | Longest Increasing Subsequence                |
+| Generate Parentheses                  | Longest Palindromic Substring                 |
+| Palindrome Partitioning               | Word Break                                    |
+| Letter Combinations of a Phone Number | Combination Sum IV                            |
+|  Generalized Abbreviation             | Decode Ways                                   |
+| Sudoku Solver                         | Unique Paths                                  |
+| N-Queens                              | Jump Game                                     |
+|                                       | Palindromic Substrings                        |
+|                                       | Number of Longest Increasing Subsequence      |
+|                                       | Partition Equal Subset Sum                    |
+|                                       | Partition to K Equal Sum Subsets              |
+|                                       | Best Time to Buy and Sell Stock with Cooldown |
+|                                       | Counting Bits                                 |
