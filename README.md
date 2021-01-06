@@ -240,10 +240,11 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 169	[Sort Items by Groups Respecting Dependencies	](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)
 * 170	[Median of Two Sorted Arrays	](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
-## Additional Questions 
+## Bonus Questions 
 * [Sub Array Sub K](https://leetcode.com/problems/subarray-sum-equals-k/)
 * [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 * [Evaluate Division](https://leetcode.com/problems/evaluate-division/)
+* [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ## **Question by Concept**
 
