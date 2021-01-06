@@ -244,6 +244,7 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 ## Additional Questions 
 * Sub Array Sub K https://leetcode.com/problems/subarray-sum-equals-k/
 * Daily Temperatures https://leetcode.com/problems/daily-temperatures/
+* Evaluate Division https://leetcode.com/problems/evaluate-division/
 
 ## **Question by Concept**
 
