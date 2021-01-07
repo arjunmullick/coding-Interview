@@ -244,7 +244,6 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Sub Array Sub K](https://leetcode.com/problems/subarray-sum-equals-k/)
 * [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 * [Evaluate Division](https://leetcode.com/problems/evaluate-division/)
-* [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
