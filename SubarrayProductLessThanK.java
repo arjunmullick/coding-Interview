@@ -12,6 +12,8 @@ public class SubarrayProductLessThanK {
         //    -            5
         //    ---          5 2
         //    -----        5 2 6
+        
+        //O(N)
         public int numSubarrayProductLessThanK(int[] nums, int k) {
             if (k <= 1) return 0;//see note below
             int n = nums.length;
@@ -34,6 +36,7 @@ public class SubarrayProductLessThanK {
     }
 
     //Recursive approach
+    //O(N*N) - for array [1,1,1,1,1,1] k > 1 creates n branches or depth max n
     class SolutionTLE {
         int result;
         public int numSubarrayProductLessThanK(int[] nums, int k) {
