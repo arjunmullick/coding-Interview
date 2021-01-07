@@ -1,3 +1,23 @@
+## **Question by Concept**
+
+|  Arrays                                                                                                               | Binary Search                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| * [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                             | * [Binary Search](https://leetcode.com/problems/binary-search/)                                                       |
+| * [Missing Number](https://leetcode.com/problems/missing-number/)                                                     | * [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |
+| * [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | * [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                     |
+| * [Single Number](https://leetcode.com/problems/single-number/)                                                       | * [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)                               |
+| * [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                         | * [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)   |
+| * [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)                               | * [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)         |
+| * [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)                   | * [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                               |
+| * [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)                                               | * [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                     |
+| * [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                       | * [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)               |
+| * [Rotate Image](https://leetcode.com/problems/rotate-image/)                                                         | * [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                             |
+| * [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)                                     | * [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                       |
+| * [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                         | * [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                   |
+|                                                                                                                       | * [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)                                             |
+|                                                                                                                       | * [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                           |
+
+
 ------------------------------------------------------------------------------------------------------------------------------
 Graph
 ------------------------------------------------------------------------------------------------------------------------------
