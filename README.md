@@ -246,6 +246,8 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Evaluate Division](https://leetcode.com/problems/evaluate-division/)
 * [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)
 * [Word Ladder](https://leetcode.com/problems/word-ladder/solution/)
+* [Basin Calculator](https://leetcode.com/problems/basic-calculator-ii/) & [Advance Calculator](https://leetcode.com/problems/basic-calculator-iii/) i,ii,iii
+* [Nested Parser](https://leetcode.com/problems/mini-parser/)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
