@@ -3,6 +3,46 @@ package com.leetcode;
 public class CountUniqueCharactersAllSubstrings {
 
     //https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/
+
+    class Solution {
+        public int uniqueLetterString(String s) {
+            int n = s.length();
+            int result = 0;
+            int mod = 1_000_000_007;
+
+            //store index of char A to Z
+            int index[][] = new int[26][2];
+            for(int i = 0 ; i < 26 ; i++){
+                index[i][0] = -1;
+                index[i][1] = -1;
+            }
+
+            for(int i = 0 ; i < n ; i++){
+                int c = s.charAt(i) - 'A';
+
+                int ways = ((i - index[c][1]) * (index[c][1] - index[c][0])) % mod;
+                result  = (result + ways) % mod;
+                index[c][0] = index[c][1];//last occurance
+                index[c][1] = i;//recent occurance
+            }
+
+            for (int c = 0; c < 26; ++c){
+                int ways = (n - index[c][1]) * (index[c][1] - index[c][0]) % mod;
+                result = (result + ways) % mod;
+            }
+
+            return result;
+        }
+    }
+
+    /*
+     * **********************************************************************************
+     * **********************************************************************************
+     * *********************************ALTERNATE****************************************
+     * **********************************************************************************
+     * **********************************************************************************
+     */
+
     /*             ""
                 A.   B.    C  - N
               AB.  BC.       - N-1
