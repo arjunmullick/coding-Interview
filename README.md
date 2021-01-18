@@ -249,6 +249,8 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Basin Calculator](https://leetcode.com/problems/basic-calculator-ii/) & [Advance Calculator](https://leetcode.com/problems/basic-calculator-iii/) i,ii,iii
 * [Nested Parser](https://leetcode.com/problems/mini-parser/)
 * [Decode String](https://leetcode.com/problems/decode-string/)
+* [Subdomain visit count](https://leetcode.com/problems/subdomain-visit-count/)
+* [Test justification](https://leetcode.com/problems/text-justification/)
 ------------------------------------------------------------------------------------------------------------------------------
 
 Questions By Topics
