@@ -70,7 +70,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 
 ### Coding Interview Question
 List                 | Solution  
----------------------|---------
+-------------------------------------------------------------------------------|-------------------------------------------
 * 1	[Contains Duplicate	](https://leetcode.com/problems/contains-duplicate/)   | [Solution](https://github.com/arjunmullick/Interview/blob/master/ContainsDuplicate.java)
 * 2	[Missing Number	](https://leetcode.com/problems/missing-number/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MissingNumber.java)
 * 3	[Find All Numbers Disappeared in an Array	](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/FindAllNumbersDisappeared.java)
