@@ -39,3 +39,17 @@ public class BinarySearch {
         }
     }
  **/
+
+/**
+        while(l<r){
+            int mid = l + (r-l)/2;
+            if(nums[mid] < target){
+                l = mid+1;
+            }else{
+                r = mid;
+            }
+        }
+        
+        if(nums[r] == target) return r;
+        else return -1;
+**/
