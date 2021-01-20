@@ -86,7 +86,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 15	[Merge Two Sorted Lists	](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MergeTwoSortedLists.java)
 * 16	[Meeting Rooms	](https://leetcode.com/problems/meeting-rooms) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MeetingRooms.java)
 * 17	[Binary Search	](https://leetcode.com/problems/binary-search/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/BinarySearch.java)
-* 18	[Find Smallest Letter Greater Than Target	](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/FindSmallestLetterGreaterThanTarget.java)
+* 18	[Find Smallest Letter Greater Than Target	](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/FindSmallestLetterGreaterThanTarget.java) *
 * 19	[Peak Index in a Mountain Array	](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/PeakIndexMountainArray.java)
 * 20	[Binary Tree Level Order Traversal II	](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/BinaryTreeLevelOrderTraversalII.java)
 * 21	[Average of Levels in Binary Tree	](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/AverageLevelsBinaryTree.java)
