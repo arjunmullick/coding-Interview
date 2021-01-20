@@ -94,7 +94,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 23	[Same Tree](https://leetcode.com/problems/same-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/SameTree.java)
 * 24	[Path Sum](https://leetcode.com/problems/path-sum/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/PathSum.java)
 * 25	[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/DiameterBinaryTree.java)
-* 26	[Merge Two Binary Trees	](https://leetcode.com/problems/merge-two-binary-trees/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MergeTwoBinaryTrees.java)
+* 26	[Merge Two Binary Trees	](https://leetcode.com/problems/merge-two-binary-trees/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MergeTwoBinaryTrees.java) *
 * 27	[Maximum Depth of Binary Tree	](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MaximumDepthBinaryTree.java)
 * 28	[Lowest Common Ancestor of a Binary Search Tree	](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/LowestCommonAncestorBinarySearchTree.java)
 * 29	[Subtree of Another Tree	](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/SubtreeAnotherTree.java)
