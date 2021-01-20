@@ -79,7 +79,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 8	[Range Sum Query - Immutable	](https://leetcode.com/problems/range-sum-query-immutable/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/RangeSumQueryImmutable.java)
 * 9	[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/LinkedListCycle.java) | [Solution](https://github.com/arjunmullick/Interview/blob/master/LinkedListCycleII.java)
 * 10	[Middle of the Linked List	](https://leetcode.com/problems/middle-of-the-linked-list/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MiddleElementLinkedList.java)
-* 11	[Palindrome Linked List	](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/PalindromeLinkedList.java)
+* 11	[Palindrome Linked List	](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/PalindromeLinkedList.java) *
 * 12	[Remove Linked List Elements	](https://leetcode.com/problems/remove-linked-list-elements/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/RemoveLinkedListElements.java)
 * 13	[Remove Duplicates from Sorted List	](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/RemoveDuplicatesFromSortedList.java)
 * 14	[Reverse Linked List	](https://leetcode.com/problems/reverse-linked-list/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ReverseLinkedList.java)
