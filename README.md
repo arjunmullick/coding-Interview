@@ -101,7 +101,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 30	[Invert Binary Tree	](https://leetcode.com/problems/invert-binary-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/InvertBinaryTree.java)
 * 31	[Two Sum	](https://leetcode.com/problems/two-sum/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/TwoSum.java)
 * 32	[Squares of a Sorted Array	](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/SquaresSortedArray.java)
-* 33	[Backspace String Compare	](https://leetcode.com/problems/backspace-string-compare) | [Solution](https://github.com/arjunmullick/Interview/blob/master/BackspaceStringCompare.java)
+* 33	[Backspace String Compare	](https://leetcode.com/problems/backspace-string-compare) | [Solution](https://github.com/arjunmullick/Interview/blob/master/BackspaceStringCompare.java) *
 * 34	[Longest Word in Dictionary	](https://leetcode.com/problems/longest-word-in-dictionary/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/LongestWordDictionary.java)
 * 35	[Index Pairs of a String	](https://leetcode.com/problems/index-pairs-of-a-string/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/IndexPairsString.java)
 * 36	[Majority Element	](https://leetcode.com/problems/majority-element/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MajorityElement.java)
