@@ -28,8 +28,8 @@ public class InvertBinaryTree {
             root.left = right;
             root.right = left;
 
-            invertTree(right);
             invertTree(left);
+            invertTree(right);
 
             return root;
         }
