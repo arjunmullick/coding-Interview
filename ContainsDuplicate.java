@@ -6,6 +6,7 @@ import java.util.Set;
 public class ContainsDuplicate {
 
     //https://leetcode.com/problems/contains-duplicate/
+    //Time O(N) memory: O(N)
     class Solution {
         public boolean containsDuplicate(int[] nums) {
             // optimization
@@ -22,4 +23,5 @@ public class ContainsDuplicate {
             return false;
         }
     }
+    //Alternate Sort and find nums[i] == nums[i-1]: Time O(N lg N), memory: O(1)
 }
