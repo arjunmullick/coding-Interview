@@ -1,8 +1,5 @@
-package com.leetcode;
-
-import java.util.Arrays;
-
 public class MissingNumber {
+    //Find first non-matching index == nums[index] as we are searching distinct numbers in the range [0, n]
     //https://leetcode.com/problems/missing-number/
     class Solution {
         public int missingNumber(int[] nums) {
@@ -30,5 +27,4 @@ public class MissingNumber {
             return r;//index is 0 based so missing no is nums[r] - 1
         }
     }
-
 }
