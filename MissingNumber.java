@@ -28,3 +28,5 @@ public class MissingNumber {
         }
     }
 }
+// Alternate 
+// expectedSum - actualSum . Expected is (n*(n+1))/2
