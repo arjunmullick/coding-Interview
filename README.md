@@ -251,6 +251,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Decode String](https://leetcode.com/problems/decode-string/)
 * [Subdomain visit count](https://leetcode.com/problems/subdomain-visit-count/)
 * [Test justification](https://leetcode.com/problems/text-justification/)
+* [Minimum Area Rectangle or Count of Unique Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)
 ------------------------------------------------------------------------------------------------------------------------------
 
 Questions By Topics
