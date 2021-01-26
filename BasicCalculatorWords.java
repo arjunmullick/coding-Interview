@@ -5,6 +5,23 @@ import java.util.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
+/*
+Advance
+Implement the same but with grouping.
+eval("(five plus four)") == 9
+eval("(one plus one) times ten") == 20
+eval("five times (two plus negative one)") == 5
+eval("(two plus negative four) times (ten plus one)") == -22
+eval("(one plus (three plus four) times five)") == 36
+eval("(one plus seven) times three plus four") == 28
+eval("(one plus seven) times (three plus four)") == 56
+eval("(one plus seven) times (three plus (four plus one plus (negative one)))") == 56
+eval("(one plus seven) times (three plus (four plus one plus negative one))") == 56
+eval("(one plus seven) times (negative three plus four)") == 8
+eval("(five plus negative four) times three") == 3
+eval("(five plus negative four) times (three plus four)") == 7
+*/
+
 // Main class should be named 'Solution'
 class Solution {
     
