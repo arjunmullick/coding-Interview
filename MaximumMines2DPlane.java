@@ -18,6 +18,8 @@ double[][] mines = new double[][]{
    {1, 2, 3},
    {-1, -1, 3},
 **/
+
+//https://leetcode.com/playground/9QkVKNoP
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
