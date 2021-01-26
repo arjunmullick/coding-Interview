@@ -254,6 +254,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Minimum Area Rectangle or Count of Unique Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)
 * [Log and process counter](https://github.com/arjunmullick/Interview/blob/master/LogAndProcessWindow.java)
 * [Common Course](https://github.com/arjunmullick/Interview/blob/master/CommonCourse.java)
+* [Maximum Mimes in 2D plane](https://github.com/arjunmullick/Interview/blob/master/MaximumMines2DPlane.java)
 ------------------------------------------------------------------------------------------------------------------------------
 
 Questions By Topics
