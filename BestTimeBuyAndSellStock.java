@@ -58,7 +58,7 @@ public class BestTimeBuyAndSellStock {
                 int p = prices[i];
                 buy[i] = Math.max(buy[i-1],hold[i-1]-p);
                 sell[i] = Math.max(buy[i-1] + p, sell[i-1]);
-                hold[i] = Math.max(Math.max(hold[i-1],sell[i-1]), buy[i-1]);
+                hold[i] = Math.max(Math.max(hold[i-1],sell[i-1]), buy[i-1]); //  hold[i] = Math.max(hold[i-1],sell[i-1]);
             }
 
             return sell[n-1];
