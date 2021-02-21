@@ -19,7 +19,7 @@ public class SubsetsII {
             result.add(new ArrayList<>(list));//copy a new one
             for(int i = index ; i < nums.length ; i++){
                 if(i> index && nums[i] == nums[i-1]) continue;
-                // i > index not i> 0 because we want first occurance to pass
+                // i > index not i> 0 because we want first occurrence to pass
                 list.add(nums[i]);
                 backtrack(i+1,nums,list,result);
                 list.remove(list.size()-1);
