@@ -14,7 +14,7 @@ public class JumpGame {
                 reach=Math.max(reach,i+nums[i]);
                 if(reach>=n-1)
                     return true;
-                if(!(reach>i))
+                if(!(reach>i))////means cannot go ahead than current reach < i or reach == i
                     return false;
             }
             return true;
