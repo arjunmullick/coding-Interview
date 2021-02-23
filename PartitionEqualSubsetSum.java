@@ -9,6 +9,41 @@ public class PartitionEqualSubsetSum {
      */
     //https://leetcode.com/problems/partition-equal-subset-sum/
 
+    
+    
+    class SolutionMemo{
+        public boolean canPartition(int[] nums) {
+
+            HashMap<String,Boolean> memo = new HashMap<>();
+            int n = nums.length;
+            int total = 0;
+            for(int i : nums){
+                total+= i;
+            }
+            if(total %2 != 0) return false;
+
+            return canPartition(0,0,nums,total,memo);
+
+        }
+
+        public boolean canPartition(int pos,int sum , int [] nums, int total ,  HashMap<String,Boolean> memo){
+            String key = pos+""+sum;
+            if(memo.containsKey(key)) return memo.get(key);
+
+            if(sum > total/2) return false;
+            if(pos >= nums.length) return false;
+
+            if(sum == total/2) return true; // second half exist as total is even
+
+            //To take or not take nums[pos]
+            boolean result = canPartition(pos+1,sum,nums,total,memo) || canPartition(pos+1,sum+nums[pos],nums,total,memo);
+            memo.put(key,result);
+            return result;
+
+        }
+    }
+    
+    
     //map compare heavy
     class SolutionTLE {
 
