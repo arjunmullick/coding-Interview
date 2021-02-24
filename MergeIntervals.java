@@ -28,7 +28,7 @@ public class MergeIntervals {
                     prev = interval;
                 }
             }
-            merged.add(prev);
+            merged.add(prev); // To remember !! 
 
             int[][] result = new int[merged.size()][2];
             for(int i = 0 ; i <  merged.size() ; i++){
