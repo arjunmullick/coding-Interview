@@ -23,6 +23,7 @@ public class SortColors {
                     temp = nums[r];
                     nums[r] = nums[i];
                     nums[i] = temp;
+                    //dont do i++ as compare needed 
                     r--;
                 }else if(nums[i] == 1){
                     i++;
