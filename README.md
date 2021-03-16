@@ -259,6 +259,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Max random index integer in O(1)](https://github.com/arjunmullick/Interview/blob/master/MaxRandomInt.java)
 * [Range Sum BST](https://github.com/arjunmullick/Interview/blob/master/RangeSumBST.java)
 * [Insert Delete GetRandom O(1)](https://github.com/arjunmullick/Interview/blob/master/InsertDeleteGetRandomO(1).java)
+* [Tax Slab](https://github.com/arjunmullick/Interview/blob/master/TaxSlab.java)
 ------------------------------------------------------------------------------------------------------------------------------
 
 Questions By Topics
