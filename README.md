@@ -256,6 +256,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Common Course](https://github.com/arjunmullick/Interview/blob/master/CommonCourse.java)
 * [Maximum Mines in 2D plane](https://github.com/arjunmullick/Interview/blob/master/MaximumMines2DPlane.java)
 * [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [solution](https://github.com/arjunmullick/Interview/blob/master/MinimumNumberRefuelingStops.java)
+* [Max random index integer in O(1)](https://github.com/arjunmullick/Interview/blob/master/MaxRandomInt.java)
 ------------------------------------------------------------------------------------------------------------------------------
 
 Questions By Topics
