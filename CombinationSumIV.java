@@ -133,3 +133,31 @@ public class CombinationSumIV {
     }
 
 }
+
+
+
+
+class SolutionRecWithMemo {
+    public int combinationSum4(int[] nums, int target) {
+        HashMap<Integer,Integer> memo = new HashMap<>();
+        return dfs(0,target,nums,memo);
+    }
+    
+    public int dfs(int pos ,int amount, int[] nums , HashMap<Integer,Integer> memo){
+        
+        if(amount == 0){
+            return 1;
+        }
+        if(memo.containsKey(amount)) return memo.get(amount);
+        int c = 0;
+        for(int i = 0 ; i < nums.length ; i++){ // this is permutation 
+            int diff = amount - nums[i];
+            
+            if(diff >=0){
+                c += dfs(i, diff,nums,memo);
+            }
+        }
+        memo.put(amount,c);
+        return c;
+    }
+}
