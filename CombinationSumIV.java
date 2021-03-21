@@ -71,48 +71,31 @@ public class CombinationSumIV {
     // The recursion can also be done to generate sub problem and return combination count
     // Difference is instead of sum we use diff.// This is TLE too
     // The above backtrack we can store sum in dp / memory but increasing result is hard . DP on diff recursion can be an improvement
-    class SolutionTLE2 {
-        int result;
-
-        public int combinationSum4(int[] nums, int target) {
-            if (target == 0) {
-                return 1;
-            }
-            int res = 0;
-            for (int i = 0; i < nums.length; i++) {
-                if (target >= nums[i]) {
-                    res += combinationSum4(nums, target - nums[i]);
-                }
-            }
-            return res;
-        }
-    }
 
     // Adding Dynamic Programming/Memorization  on above recursion
     //top-down recursion
-    class SolutionAccepted {
-
-        private int[] dp;
-
+    class SolutionRecWithMemo {
         public int combinationSum4(int[] nums, int target) {
-            dp = new int[target + 1];
-            Arrays.fill(dp, -1);
-            dp[0] = 1;
-            return helper(nums, target);
+            HashMap<Integer,Integer> memo = new HashMap<>();
+            return dfs(0,target,nums,memo);
         }
 
-        private int helper(int[] nums, int target) {
-            if (dp[target] != -1) {
-                return dp[target];
+        public int dfs(int pos ,int amount, int[] nums , HashMap<Integer,Integer> memo){
+
+            if(amount == 0){
+                return 1;
             }
-            int res = 0;
-            for (int i = 0; i < nums.length; i++) {
-                if (target >= nums[i]) {
-                    res += helper(nums, target - nums[i]);
+            if(memo.containsKey(amount)) return memo.get(amount);
+            int c = 0;
+            for(int i = 0 ; i < nums.length ; i++){ // this is permutation 
+                int diff = amount - nums[i];
+
+                if(diff >=0){
+                    c += dfs(i, diff,nums,memo);
                 }
             }
-            dp[target] = res;
-            return res;
+            memo.put(amount,c);
+            return c;
         }
     }
 
@@ -131,33 +114,5 @@ public class CombinationSumIV {
             return comb[target];
         }
     }
-
 }
 
-
-
-
-class SolutionRecWithMemo {
-    public int combinationSum4(int[] nums, int target) {
-        HashMap<Integer,Integer> memo = new HashMap<>();
-        return dfs(0,target,nums,memo);
-    }
-    
-    public int dfs(int pos ,int amount, int[] nums , HashMap<Integer,Integer> memo){
-        
-        if(amount == 0){
-            return 1;
-        }
-        if(memo.containsKey(amount)) return memo.get(amount);
-        int c = 0;
-        for(int i = 0 ; i < nums.length ; i++){ // this is permutation 
-            int diff = amount - nums[i];
-            
-            if(diff >=0){
-                c += dfs(i, diff,nums,memo);
-            }
-        }
-        memo.put(amount,c);
-        return c;
-    }
-}
