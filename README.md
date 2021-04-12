@@ -260,7 +260,8 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Range Sum BST](https://github.com/arjunmullick/Interview/blob/master/RangeSumBST.java)
 * [Insert Delete GetRandom O(1)](https://github.com/arjunmullick/Interview/blob/master/InsertDeleteGetRandomO(1).java)
 * [Tax Slab](https://github.com/arjunmullick/Interview/blob/master/TaxSlab.java)
-* [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+* [Design Add and Search Words Data Structure](https://github.com/arjunmullick/coding-Interview/blob/master/DesignAddSearchWordsDataStructure.java)
+* [Vertical Order Traversal of a Binary Tree](https://github.com/arjunmullick/coding-Interview/blob/master/VerticalOrderTraversalBinaryTree.java)
 ------------------------------------------------------------------------------------------------------------------------------
 
 Questions By Topics
