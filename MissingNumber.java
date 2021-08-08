@@ -28,5 +28,32 @@ public class MissingNumber {
         }
     }
 }
-// Alternate 
+// Alternate 1 (Math)
 // expectedSum - actualSum . Expected is (n*(n+1))/2
+
+// Alternate 2 (Bitwise property)
+//a^b^b = a (xor with itself will reveal orignal number )   . if we xor all number i,i+1 , i+2 ---- n with itself we will get zero . Using this concept xor all number with index and remaining result will be missing number.
+
+class Solution2 {
+    public int missingNumber(int[] nums) {
+        int x = nums.length;
+        for (int i = 0; i < nums.length; i++){
+            x = x ^ nums[i];
+        }
+        for (int i = 0; i < nums.length; i++){
+            x = x ^ i;
+        }
+        return x;
+    }
+}
+
+/** Simplified 
+class Solution {
+    public int missingNumber(int[] nums) {
+        int miss = nums.length;
+        for (int i = 0; i < nums.length; i++)
+            miss ^= i ^ nums[i];
+        return miss;
+    }
+}
+**/
