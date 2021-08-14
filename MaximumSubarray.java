@@ -40,8 +40,7 @@ public class MaximumSubarray {
             int max = nums[0];
             int localMaxSum = nums[0];
             for(int i = 1 ; i < n ; i++){
-                localMaxSum = Math.max(localMaxSum + nums[i], nums[i]);
-                //System.out.println(localMaxSum);
+                localMaxSum = Math.max(localMaxSum + nums[i], nums[i]); // also can say if(nums[i] > localMaxSum) localMaxSum = nums[i];
                 max = Math.max(max,localMaxSum);
             }
             return max;
