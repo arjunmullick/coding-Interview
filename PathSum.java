@@ -45,3 +45,20 @@ public class PathSum {
         }
     }
 }
+
+
+
+// Alternate 
+    public boolean hasPathSum(TreeNode root, int targetSum) {
+        if(root == null) return false;
+        return hasPathSumHelper(root,targetSum);
+    }
+    
+    
+    public boolean hasPathSumHelper(TreeNode node, int target){
+        if(node == null) return false;
+        if(node.left == null && node.right == null && node.val == target) return true;
+        int val = node.val;
+        int sum = target - val;
+        return hasPathSumHelper(node.left , sum) || hasPathSumHelper(node.right , sum);
+    }
