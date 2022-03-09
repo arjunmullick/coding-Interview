@@ -32,6 +32,24 @@ public class NonOverlappingIntervals {
             Condition 5 - Multiple overlap again remove ending later in first overlap
             |------------|*
             |---|  |-------|
+            
+            ----------------------------------------------------------------------------------------------------
+                        |--------|
+              |--------|
+
+            |--------|
+            |----------|
+
+            |-----------|
+            |--------|
+
+                 |--------|
+            |--------|
+
+            A|--------|
+                        B|--------|
+            B|--------|
+                        A|--------|
         */
         //Time O(NlogN) and O(1) space
         public int eraseOverlapIntervals(int[][] intervals) {
