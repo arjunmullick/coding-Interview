@@ -155,7 +155,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 84	[Number of Connected Components in an Undirected Graph	](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/NumberOfConnectedComponentsUndirectedGraph.java)
 * 85	[Reverse Linked List II	](https://leetcode.com/problems/reverse-linked-list-ii/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ReverseLinkedListII.java)
 * 86	[Rotate List	](https://leetcode.com/problems/rotate-list/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/RotateList.java)
-* 87	[Swap Nodes in Pairs	](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ReverseLinkedListII.java)
+* 87	[Swap Nodes in Pairs	](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/SwapNodesInPairs.java)
 * 88	[Odd Even Linked List	](https://leetcode.com/problems/odd-even-linked-list/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/OddEvenLinkedList.java)
 * 89	[Kth Smallest Element in a Sorted Matrix	](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/KthSmallestElementSortedMatrix.java)
 * 90	[Find K Pairs with Smallest Sums	](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/FindKPairsSmallestSums.java)
