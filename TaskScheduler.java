@@ -12,44 +12,43 @@ public class TaskScheduler {
         //complete n such operations unless we encounter first task type. if incounter add n time
         //to check encounter or not better poll the task from DS to another DS.
         //We only require count if we are using 2 datascructure to see visited and to be done
-        public int leastInterval(char[] tasks, int n) {
-            Map<Character,Integer> charCount= new HashMap<>();
-
-            for(char ch : tasks){
-                charCount.put(ch,charCount.getOrDefault(ch,0)+1);
-            }
-
-            PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b) -> (b-a));
-            for(char key : charCount.keySet()){
-                int value = charCount.get(key);
-                maxHeap.offer(value);
-            }
-
-            int result = 0;
-            while(maxHeap.size() >0){
-                int count = n;
-                List<Integer> nextCycle = new ArrayList<>();
-                while(maxHeap.size() > 0 && count >= 0){
-                    int val = maxHeap.poll();
-                    count --;
-                    val--;//for next cycle;
-                    if(val > 0){
-                        nextCycle.add(val);
-                    }
-
-                }
-                if(nextCycle.size() == 0){
-                    result +=  (n-count);
-                }else{
-                    result+= n+1;// n+1 task in each cycle
-                }
-
-
-                for(int next : nextCycle){
-                    maxHeap.offer(next);
-                }
-            }
-            return result;
+            public int leastInterval(char[] tasks, int n) {
+        if(tasks == null || tasks.length == 0) return 0;
+        
+        HashMap<Character, Integer> map = new HashMap<>();
+        
+        for(char ch : tasks){
+            map.put(ch , map.getOrDefault(ch,0) +1);
         }
+        
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b)->(b-a));
+        for(char ch : map.keySet()){
+            maxHeap.offer(map.get(ch));
+        }
+        
+        int result = 0;
+        
+        while(maxHeap.size() > 0){
+            List<Integer> nextCycle = new ArrayList<>();
+            int cycle = n+1;
+            while(cycle > 0 && maxHeap.size() > 0){
+                int t = maxHeap.poll();
+                t--;
+                cycle--;
+                if(t>0){
+                    nextCycle.add(t);
+                }
+            }
+            if(nextCycle.size() == 0){
+                result+= n+1-cycle;
+            }else{
+                result += n+1;
+            }
+            for(int t : nextCycle){
+                maxHeap.offer(t);
+            }
+        }
+        
+        return result;
     }
 }
