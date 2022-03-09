@@ -2,6 +2,16 @@ package com.leetcode;
 
 public class SwapNodesInPairs {
 
+ public class SolutionRecursion {
+    public ListNode swapPairs(ListNode head) {
+        if(head == null || head.next == null) return head;
+        ListNode next = head.next;
+        head.next = swapPairs(head.next.next);
+        next.next = head;
+        return next;
+    }
+ }
+    
     //https://leetcode.com/problems/swap-nodes-in-pairs/
     class Solution {
         //Tip : draw on paper
