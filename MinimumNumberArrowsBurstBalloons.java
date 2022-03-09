@@ -59,3 +59,30 @@ public class MinimumNumberArrowsBurstBalloons {
         }
     }
 }
+
+
+//Alternate sort by start time 
+
+    public int findMinArrowShots(int[][] points) {
+        if(points.length <= 1) return points.length;
+
+            //sort by end time
+            Arrays.sort(points,(a, b)->(Integer.compare (a[0] , b[0])));// .compare because testcase has int maxValue
+
+            int count = 1;
+            int [] prev = points[0];
+            for(int i = 0 ; i < points.length ; i++){
+                int start = prev[0];
+                int end = prev[1];
+                int next[] = points[i];
+                if(next[0] > prev[1]){//no overlap
+                    count++;
+                    prev = next;
+                }else{
+                    prev[0] = Math.max(prev[0], points[i][0]);
+                    prev[1] = Math.min(prev[1], points[i][1]);
+                }
+            }
+            return count;
+    }
+}
