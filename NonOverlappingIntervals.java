@@ -53,6 +53,32 @@ public class NonOverlappingIntervals {
         */
         //Time O(NlogN) and O(1) space
         public int eraseOverlapIntervals(int[][] intervals) {
+            Arrays.sort(intervals,(a,b)->(a[0]-b[0]));
+
+            int[] prev = intervals[0];
+            int count = 0;
+            for(int i = 1 ; i < intervals.length ; i++){
+                int [] interval = intervals[i];
+                if(isOverlap(interval,prev)){
+                    prev[1] = Math.min(prev[1] , interval[1]);        
+                    count++;
+                }else{
+                    prev = interval;    
+                }
+
+            }
+            return count;
+        }
+
+        public boolean isOverlap(int[] a , int[] b){
+
+            if(a[1] <= b[0] || b[1] <= a[0]) return false;
+
+            return true;
+        }
+        
+        // Alternate way
+        public int eraseOverlapIntervals(int[][] intervals) {
 
             //From above condition sorting intervals first helps reduce condition
             //if overlap remove the one whose end time is greater remove b when b[1] > a[1]
