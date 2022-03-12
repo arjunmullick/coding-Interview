@@ -41,6 +41,34 @@ public class LowestCommonAncestorBinarySearchTree {
 
 /**
   Not a BST
+  
+  class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+       if(root == null) return root;
+       if(p == q) return p;
+       
+       return contains(root , p, q);
+    }
+    
+    public TreeNode contains(TreeNode node , TreeNode p , TreeNode q){
+        if(node == null) return null;
+        if(node == p) return p;
+        if(node == q) return q;
+        TreeNode left = contains(node.left , p,q);
+        TreeNode right = contains(node.right , p,q);
+        if(left != null && right != null){
+            return node;
+        }
+        if(left == null && right != null) return right;
+        if(left != null && right == null) return left;
+        if(left == null && right == null) return null;
+        return node;
+        
+        
+    }
+}
+  
+ // Alternate  
   class Solution {
       public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
           if(root == null)
