@@ -199,7 +199,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 128	[Construct Binary Tree from Preorder and Inorder Traversal	](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ConstructBinaryTreePreorderInorderTraversal.java)
 * 129	[Validate Binary Search Tree	](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ValidateBinarySearchTree.java)
 * 130	[Implement Trie (Prefix Tree)	](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ImplementTriePrefixTree.java)
-* 131	[3 Sum	](https://leetcode.com/problems/3sum/)
+* 131	[3 Sum	](https://leetcode.com/problems/3sum/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/3Sum.java)
 * 132	[3 Sum Closest	](https://leetcode.com/problems/3sum-closest/)
 * 133	[Subarrays with Product Less than K	](https://leetcode.com/problems/subarray-product-less-than-k/)
 * 134	[Sort Colours	](https://leetcode.com/problems/sort-colors/)
