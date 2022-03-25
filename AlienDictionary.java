@@ -8,9 +8,10 @@ import java.util.Queue;
 public class AlienDictionary {
 
     class Solution {
-        // Get all unique character . Create a map / graph with relationship by comparing adjacent words.
+        // Get all unique characters . Create a map / graph with relationships by comparing adjacent words.
         // Count of in-degree for starting of topological sort ( BFS on graph to avoid cycle.)
         // if all character in words are in result return formed order
+
         public String alienOrder(String[] words) {
             int n = words.length;
             if(n==0 || words[0].length() == 0) return "";
