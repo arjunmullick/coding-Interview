@@ -267,6 +267,12 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Valid Word Abbreviation](https://github.com/arjunmullick/coding-Interview/blob/master/ValidWordAbbreviation.java)
 ------------------------------------------------------------------------------------------------------------------------------
 
+## Custom DataStructure 
+* [Design HashMap](https://github.com/arjunmullick/coding-Interview/blob/master/MyHashMap.java)
+* [Design LRU Cache](https://github.com/arjunmullick/coding-Interview/blob/master/LRUCache.java)
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Questions By Topics
 ===================
 
