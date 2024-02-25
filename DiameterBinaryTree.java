@@ -18,7 +18,7 @@ public class DiameterBinaryTree {
             if(node.left == null && node.right == null) return 1;
             int leftDepth = getDepth(node.left);
             int rightDepth = getDepth(node.right);
-            int depth =  Math.max(leftDepth,rightDepth);// if both leaf then 1+1 = 2 means counting self so L+R+1 not needed. 
+            int depth =  Math.max(leftDepth,rightDepth);// if both leaf 2 count,  counting self so L+R+1 not needed. 
             max = Math.max(leftDepth+rightDepth , max);
             return depth+1;
         }
