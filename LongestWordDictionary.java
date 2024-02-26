@@ -92,7 +92,8 @@ public class LongestWordDictionary {
     }
 }
 
-/**
+/** // Not optimized solution 
+
     class Solution {
         public String longestWord(String[] words) {
             String ans = "";
