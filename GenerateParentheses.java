@@ -4,6 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GenerateParentheses {
+    /**
+        Example 1:
+            
+            Input: n = 3
+            Output: ["((()))","(()())","(())()","()(())","()()()"]
+            Example 2:
+            
+            Input: n = 1
+            Output: ["()"]
+
+    **/
     //https://leetcode.com/problems/generate-parentheses/
     // String is not passed as reference so no need to backtrack . Branch can end
     class Solution {
