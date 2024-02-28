@@ -145,7 +145,21 @@ public class GraphValidTree {
 
         }
     }
-    //O(N)
+    //O(N) to verify . 
+
+    // Complexity
+/** 
+    Time to build graph : O(nlog(n))
+        Space: O(n) parent and size array
+        n: the total number of nodes in the given graph
+        
+        Find operation
+        Time: O(log(n)) log(n) is the height of the tree
+        Space: O(1)
+        Union operation
+        Time: O(1)
+        Space: O(1)
+**/
     class SolutionUnionFind {
         public boolean validTree(int n, int[][] edges) {
 
