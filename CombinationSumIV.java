@@ -29,7 +29,7 @@ public class CombinationSumIV {
             if(sum > target) return;
             if(sum == target) result.add(new ArrayList<>(list));//copy and add
 
-            for(int i = pos ; i < nums.length ; i++){
+            for(int i = 0 ; i < nums.length ; i++){ // do this for unique combination for(int i = pos ; i < nums.length ; i++)
                 list.add(nums[i]);
                 backtrack(pos,sum+nums[i],target,nums,list,result);
                 list.remove(list.size()-1);
