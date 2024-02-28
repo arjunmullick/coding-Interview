@@ -8,7 +8,7 @@ public class OddEvenLinkedList {
         public ListNode oddEvenList(ListNode head) {
             if(head == null || head.next == null) return head;
 
-            ListNode list1 = head;//oad head
+            ListNode list1 = head;//odd head
             ListNode list2 = head.next;//even head
 
             ListNode odd;
