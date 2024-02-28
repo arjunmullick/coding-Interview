@@ -42,7 +42,7 @@ public class GraphValidTree {
                     if(!visited[next]){
                         queue.offer(next);
                         parent.put(next,node);
-                    }else if(parent.get(node) != next){//check the node parent is market as child then then its ok 0-1 , 1-0 because of undirected
+                    }else if(parent.get(node) != next){//To ensure a node has only one parent .  Check the node parent is market as child then then its ok 0-1 , 1-0 because of undirected
                         return false;//cyclic
                     }
                 }
