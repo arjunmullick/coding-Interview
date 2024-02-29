@@ -20,7 +20,7 @@ public class FruitIntoBaskets {
                 count.put(tree[r], count.getOrDefault(tree[r], 0) + 1);
                 while(count.size() > 2) {
                     count.put(tree[l], count.get(tree[l]) - 1);
-                    count.remove(tree[l++], 0); //remove when match
+                    count.remove(tree[l++], 0); // remove(Object key, Object value) - Removes the entry for the specified key only if it is currently mapped to the specified value.
                 }
                 r++;
                 max = Math.max(max,r-l);
