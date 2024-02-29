@@ -2,6 +2,17 @@ package com.leetcode;
 
 public class PermutationString {
     //https://leetcode.com/problems/permutation-in-string/
+    /**
+    Example 1:
+
+        Input: s1 = "ab", s2 = "eidbaooo"
+        Output: true
+        Explanation: s2 contains one permutation of s1 ("ba").
+    Example 2:
+        
+        Input: s1 = "ab", s2 = "eidboaoo"
+        Output: false
+    **/
     class Solution {
         public boolean checkInclusion(String s1, String s2) {
 
