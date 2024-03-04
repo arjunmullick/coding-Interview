@@ -12,7 +12,7 @@ class Solution {
                 int r = n-1;
                 while(l < r){
                     int sum = nums[l] + nums[r]  + nums[p1];
-                    if(sum == 0){
+                    if(sum == 0){ // 0 is the target sum 
                         List<Integer> list = new ArrayList<>();
                         list.add(nums[p1]);
                         list.add(nums[l]);
