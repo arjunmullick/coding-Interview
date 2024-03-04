@@ -7,6 +7,8 @@ import java.util.List;
 
 public class MaximumWidthOfBinaryTree {
 
+
+    // Check BFS solution , its intutive 
     class Solution {
 
         //id left 2i and right is 21+1;
