@@ -23,8 +23,8 @@ public class CourseSchedule {
             }
             for(int [] edge : prerequisites){
 
-                int node1 = edge[0];//take
-                int node2 = edge[1];//next
+                int node1 = edge[0];// next node
+                int node2 = edge[1];// pre req
 
                 inDegree[node1] = inDegree[node1] + 1;
                 List<Integer> neighbours = adj.get(node2);
