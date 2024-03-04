@@ -7,7 +7,7 @@ class Solution {
         Arrays.sort(nums);
         
         for(int p1 = 0 ; p1 < n-2 ; p1++){
-            if (p1 > 0 && nums[p1 - 1] == nums[p1]) continue;
+            if (p1 > 0 && nums[p1 - 1] == nums[p1]) continue; // if we do not want duplicates
                 int l = p1+1;
                 int r = n-1;
                 while(l < r){
