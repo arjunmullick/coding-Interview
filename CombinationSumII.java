@@ -7,6 +7,19 @@ import java.util.List;
 public class CombinationSumII {
 
     //https://leetcode.com/problems/combination-sum-ii/
+    /**
+    Input: candidates = [10,1,2,7,6,1,5], target = 8
+    Output: 
+        [
+        [1,1,6],
+        [1,2,5],
+        [1,7],
+        [2,6]
+        ]
+
+        Time complexity: O(2^n)
+        Space complexity: O(n)
+    **/
     class Solution {
         public List<List<Integer>> combinationSum2(int[] candidates, int target) {
             Arrays.sort(candidates);
