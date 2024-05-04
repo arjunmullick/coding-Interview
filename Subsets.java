@@ -3,6 +3,10 @@ package com.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 //O(N×2^N) Space and same O(N×2^N) Time
+/**
+Input: nums = [1,2,3]
+Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
+**/
 public class Subsets {
     //https://leetcode.com/problems/subsets/
     class Solution {
