@@ -193,7 +193,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 122	[All Nodes Distance K in Binary Tree	](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/AllNodesDistanceKBinaryTree.java)
 * 123	[Path Sum II	](https://leetcode.com/problems/path-sum-ii/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/PathSumII.java)
 * 124	[Path Sum III	](https://leetcode.com/problems/path-sum-iii/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/PathSumIII.java)
-* 125	[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/LowestCommonAncestorBinarySearchTree.java)
+* 125	[(LCA) Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/LowestCommonAncestorBinarySearchTree.java)
 * 126	[Maximum Binary Tree	](https://leetcode.com/problems/maximum-binary-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MaximumBinaryTree.java)
 * 127	[Maximum Width of Binary Tree	](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MaximumWidthOfBinaryTree.java)
 * 128	[Construct Binary Tree from Preorder and Inorder Traversal	](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ConstructBinaryTreePreorderInorderTraversal.java)
