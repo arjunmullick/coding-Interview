@@ -75,7 +75,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 4	[Single Number	](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/SingleNumber.java) *
 * 5	[Climbing Stairs	](https://leetcode.com/problems/climbing-stairs/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ClimbingStairs.java)
 * 6	[Best Time to Buy and Sell Stock	](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/BestTimeBuyAndSellStock.java)
-* 7	[Maximum Subarray	](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MaximumSubarray.java)
+* 7	[Maximum Subarray	subarray with the largest sum](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MaximumSubarray.java)
 * 8	[Range Sum Query - Immutable	](https://leetcode.com/problems/range-sum-query-immutable/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/RangeSumQueryImmutable.java)
 * 9	[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/LinkedListCycle.java) | [Solution](https://github.com/arjunmullick/Interview/blob/master/LinkedListCycleII.java)
 * 10	[Middle of the Linked List	](https://leetcode.com/problems/middle-of-the-linked-list/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MiddleElementLinkedList.java)
