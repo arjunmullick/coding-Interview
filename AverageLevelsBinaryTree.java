@@ -56,3 +56,36 @@ public class AverageLevelsBinaryTree {
     }
 
 }
+
+
+// Optimized 
+
+class SolutionOptimized {
+    public List<Double> averageOfLevels(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<>();
+        List<Double> result = new LinkedList<>();
+
+        queue.offer(root);
+
+        while(queue.size() > 0){
+            
+            int size = queue.size();
+            long levelNum = 0;
+            long levelDen = size;
+            while(size > 0){
+                TreeNode node = queue.poll();
+                levelNum += node.val;
+                size--;
+                if(node.left != null){
+                    queue.offer(node.left);
+                }
+                if(node.right != null){
+                    queue.offer(node.right);
+                }
+            }
+            Double avg = (double) levelNum/levelDen;
+            result.add(avg);
+        }
+        return result;
+    }
+}
