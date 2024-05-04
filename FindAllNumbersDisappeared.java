@@ -14,7 +14,7 @@ public class FindAllNumbersDisappeared {
                 nums[val-1] = Math.abs(nums[val-1]) * -1;//index 0 so val -1
             }
 
-            // find index where no is not positive
+            // find position where it is not negative . That index position value is not visited.
             for(int i = 0 ; i < n ; i++){
                 if(nums[i] > 0){
                     result.add(i+1);
