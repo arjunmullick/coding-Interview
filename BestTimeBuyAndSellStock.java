@@ -65,7 +65,7 @@ public class BestTimeBuyAndSellStock {
 
         }
 
-        //Best Time to Buy and Sell Stock IV
+        //Best Time to Buy and Sell Stock IV / most k transactions: i.e. you may buy at most k times and sell at most k times.
         //https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
         public int maxProfit(int k, int[] prices) {
             if (prices == null || prices.length <= 1) return 0;
