@@ -7,6 +7,13 @@ public class CombinationSum {
 
     //https://leetcode.com/problems/combination-sum/submissions/
     //backtracking with sum passed as backtrack variable
+    /**
+    Input: candidates = [2,3,6,7], target = 7
+    Output: [[2,2,3],[7]]
+
+    Time complexity: O(2^n)
+    Space complexity: O(n)
+    **/
     class Solution {
         public List<List<Integer>> combinationSum(int[] candidates, int target) {
             List<List<Integer>> result = new ArrayList<>();
@@ -19,7 +26,7 @@ public class CombinationSum {
             if(sum == target)
                 result.add(new ArrayList<>(list));
 
-            if(sum > target) return;
+            if(sum > target) return; // because no negative numbers.
 
             for(int i = start ; i < candidates.length ; i++){
                 list.add(candidates[i]);
