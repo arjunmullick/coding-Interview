@@ -6,6 +6,10 @@ import java.util.List;
 
 public class SubsetsII {
     //https://leetcode.com/problems/subsets-ii/
+    /**
+        Input: nums = [1,2,2]
+        Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
+    **/
     class Solution {
         public List<List<Integer>> subsetsWithDup(int[] nums) {
             Arrays.sort(nums);
