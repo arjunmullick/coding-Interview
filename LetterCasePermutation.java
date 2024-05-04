@@ -5,6 +5,12 @@ import java.util.List;
 
 public class LetterCasePermutation {
     //https://leetcode.com/problems/letter-case-permutation/
+    /**
+        Time complexity: O(2^k*l) - k = number of characters, l = number of digits; k+l = n
+        
+        Space complexity:O(N)
+
+    **/
 
     class Solution {
 
