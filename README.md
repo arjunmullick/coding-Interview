@@ -247,7 +247,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/RandomPickWeight.java)
 * [Word Ladder](https://leetcode.com/problems/word-ladder/solution/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/WordLadder.java)
 * [Basin Calculator](https://leetcode.com/problems/basic-calculator-ii/) & [Advance Calculator](https://leetcode.com/problems/basic-calculator-iii/) i,ii,iii [Word Calculator](https://github.com/arjunmullick/Interview/blob/master/BasicCalculatorWords.java) | [Solution Basic +-*/](https://github.com/arjunmullick/coding-Interview/blob/master/BasicCalculatorII.java) | [Solution +-*/and brackets()](https://github.com/arjunmullick/coding-Interview/blob/master/BasicCalculatorIII.java) | [Solution Word calculator : eval("(five plus negative four) times (three plus four)") == 7](https://github.com/arjunmullick/coding-Interview/blob/master/BasicCalculatorWords.java)
-* [Nested Parser / Mini Parser / JSON](https://leetcode.com/problems/mini-parser/)
+* [Nested Parser / Mini Parser / JSON](https://leetcode.com/problems/mini-parser/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/NestedJsonParser.java)
 * [Decode String](https://leetcode.com/problems/decode-string/)
 * [Subdomain visit count](https://leetcode.com/problems/subdomain-visit-count/)
 * [Test justification](https://leetcode.com/problems/text-justification/)
