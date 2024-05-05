@@ -184,7 +184,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 113	[Reorganize String : adjacent characters are not the same	](https://leetcode.com/problems/reorganize-string/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ReorganizeString.java)
 * 114	[Course Schedule	](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/CourseSchedule.java)
 * 115	[Course Schedule II	](https://leetcode.com/problems/course-schedule-ii/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/CourseScheduleII.java)
-* 116	[Minimum Height Trees	](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MinimumHeightTrees.java)
+* 116	[Minimum Height Trees: root is the node with most child	](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MinimumHeightTrees.java)
 * 117	[Binary Tree Level Order Traversal	](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/BinaryTreeLevelOrderTraversal.java)
 * 118	[Binary Tree Zigzag Level Order Traversal	](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/BinaryTreeZigzagLevelOrderTraversal.java)
 * 119	[Populating Next Right Pointers in Each Node	](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/PopulatingNextRightPointersEachNode.java)
