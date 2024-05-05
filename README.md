@@ -237,7 +237,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 166	[Palindrome Pairs	](https://leetcode.com/problems/palindrome-pairs/)
 * 167	[Design Search Autocomplete System	](https://leetcode.com/problems/design-search-autocomplete-system/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/DesignSearchAutocompleteSystem.java)
 * 168	[Word Squares	](https://leetcode.com/problems/word-squares/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/WordSquares.java)
-* 169	[Sort Items by Groups Respecting Dependencies	](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)
+* 169	[Sort Items by Groups Respecting Dependencies	](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/) |[Solution](https://github.com/arjunmullick/coding-Interview/blob/master/SortItemsByGroupsRespectingDependencies.java)
 * 170	[Median of Two Sorted Arrays	](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 ## Bonus Questions 
