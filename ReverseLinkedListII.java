@@ -2,7 +2,6 @@ package com.leetcode;
 
 public class ReverseLinkedListII {
 
-
     /**
      * Definition for singly-linked list.
      */
