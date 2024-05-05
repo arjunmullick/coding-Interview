@@ -4,7 +4,11 @@ import java.util.PriorityQueue;
 
 public class KthSmallestElementSortedMatrix {
     //https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
-
+    /**
+        Input: matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8
+        Output: 13
+        Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15], and the 8th smallest number is 13
+    **/
     //at a time minHeap will not exceed N/2. X < n/2
     //K(log X) where X is item in minHeap at a time.
     class Solution {
