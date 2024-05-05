@@ -241,7 +241,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 170	[Median of Two Sorted Arrays	](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 ## Bonus Questions 
-* [Sub Array Sub K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/SubArraySubK.java)
+* [SubArray Sum K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/SubArraySubK.java)
 * [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/DailyTemperature.java)
 * [Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/EvaluateDivision.java)
 * [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/RandomPickWeight.java)
