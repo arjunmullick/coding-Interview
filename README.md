@@ -181,7 +181,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 110	[Top K Frequent Elements	](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/TopKFrequentElements.java)
 * 111	[Sort Characters By Frequency	](https://leetcode.com/problems/sort-characters-by-frequency/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/SortCharactersByFrequency.java)
 * 112	[Kth Largest Element in an Array	](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/KthLargestElementArray.java)
-* 113	[Reorganize String	](https://leetcode.com/problems/reorganize-string/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ReorganizeString.java)
+* 113	[Reorganize String : adjacent characters are not the same	](https://leetcode.com/problems/reorganize-string/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/ReorganizeString.java)
 * 114	[Course Schedule	](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/CourseSchedule.java)
 * 115	[Course Schedule II	](https://leetcode.com/problems/course-schedule-ii/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/CourseScheduleII.java)
 * 116	[Minimum Height Trees	](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MinimumHeightTrees.java)
