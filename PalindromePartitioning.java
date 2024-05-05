@@ -9,7 +9,13 @@ public class PalindromePartitioning {
     //Time Complexity :O (N  * 2^N) where N is the length of string ss.
     /**
     Time complexity: O(2^n*n)
-        The time complexity is O(2^n) because for each character in the input string, the algorithm generates two recursive calls, one for including the character in the current partition and one for not including it. Since the input string can have up to n characters, this results in 2^n possible partitions. The algorithm must check each partition to see if it is a palindrome, and therefore the time complexity is O(2^n)and O(N) time to generate the substring and determine if it is a palindrome or not. So overall time complexity is O(2^n*n).
+        The time complexity is O(2^n) because for each character in the input string, the algorithm generates two recursive calls, 
+        one for including the character in the current partition and one for not including it. 
+        Since the input string can have up to n characters, this results in 2^n possible partitions. 
+        The algorithm must check each partition to see if it is a palindrome, 
+        and therefore the time complexity is O(2^n)and O(N) time to generate the substring and determine if it is a palindrome or not. 
+        So overall time complexity is O(2^n*n).
+        
     Space complexity: O(n)
     **/
     class Solution {
