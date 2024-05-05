@@ -2,6 +2,10 @@ package com.leetcode;
 
 public class ReorderList {
 
+    /**
+    Input: head = [1,2,3,4,5]
+    Output: [1,5,2,4,3]
+    **/
     class Solution {
 
         //Find the middle of the list
