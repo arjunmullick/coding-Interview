@@ -2,6 +2,18 @@ package com.leetcode;
 
 import java.util.HashMap;
 
+/**
+Example 1:
+
+Input: nums = [1,5,11,5]
+Output: true
+Explanation: The array can be partitioned as [1, 5, 5] and [11].
+Example 2:
+
+Input: nums = [1,2,3,5]
+Output: false
+Explanation: The array cannot be partitioned into equal sum subsets.
+**/
 public class PartitionEqualSubsetSum {
     /*
       In the worst case where there is no overlapping calculation,
