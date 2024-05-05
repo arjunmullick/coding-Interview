@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class MinimumSizeSubarraySum {
 
     class Solution {
-        //O(n) - two pointers
+        //O(n) - sliding window / two pointers
         public int minSubArrayLen(int s, int[] nums) {
             if(nums.length == 0){
                 return 0;
