@@ -56,3 +56,40 @@ public class KthSmallestElementSortedMatrix {
         }
     }
 }
+
+
+
+/// Alternative Binary Search 
+
+class Solution {
+    public int kthSmallest(int[][] matrix, int k) {
+        int n = matrix.length;
+        int left = matrix[0][0], right = matrix[n - 1][n - 1];
+
+        while(left <= right){
+            int mid = left + ((right - left) >> 1);
+
+            if(check(mid, k , matrix, n)) // Check if we have more number before mid greater than K 
+                right = mid - 1;
+            else 
+                left = mid + 1;
+        }
+
+        return left;
+    }
+    
+    // Check if we have more number before mid greater than K 
+    public boolean check(int mid, int k, int[][] arr, int n){
+        int size = 0;
+        int i = 0, j = n - 1; // start from top right . 
+
+        while(i < n && j >=0){
+            if(mid >= arr[i][j]){
+                size += j+1; // all row is smaller than mid  
+                i++;
+            }else   j--;
+        }
+
+        return size >= k; 
+    }
+}
