@@ -3,6 +3,15 @@ package com.leetcode;
 public class LongestPalindromicSubstring {
     //https://leetcode.com/problems/longest-palindromic-substring/
     //Expand at each location O(n^2)
+    /**
+    Example 1:
+        Input: s = "babad"
+        Output: "bab"
+        Explanation: "aba" is also a valid answer.
+    Example 2:
+        Input: s = "cbbd"
+        Output: "bb"
+    **/
     class Solution {
         int l;
         int r;
