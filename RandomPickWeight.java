@@ -10,9 +10,16 @@ public class RandomPickWeight {
     which randomly picks an index in the range [0, w.length - 1] (inclusive) and returns it. T
     he probability of picking an index i is w[i] / sum(w).
 
-    [1,3,6] -> [0,1,1,1,2,2,2,2,2,2]
-    this can be divided as buckets = [0,0],[1,3],[4,9]
+    [1,3,6] -> [0,1,1,1,2,2,2,2,2,2] 
+    Total sum = 10
+    this can be divided as buckets = [0,1],[2,4],[5,10]
     pick a number between 0 to 9 then I need to see which bucket above it correspond to and return the bucket index. 
+
+    lets say my random is 5 , then I want to return bucket #3. 
+    we create a cumulative sum array like this and run binary search. 
+    Then I find index closest to a number > target. the index is our result
+    cdf = [1,4,10]
+    
     */
     class Solution {
 
