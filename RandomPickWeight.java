@@ -5,6 +5,11 @@ import java.util.Random;
 public class RandomPickWeight {
 
     //https://leetcode.com/problems/random-pick-with-weight/
+    /**
+    You need to implement the function pickIndex(), 
+    which randomly picks an index in the range [0, w.length - 1] (inclusive) and returns it. T
+    he probability of picking an index i is w[i] / sum(w).
+    */
     class Solution {
 
         Random random;
