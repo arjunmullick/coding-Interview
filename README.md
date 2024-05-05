@@ -226,7 +226,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 155	[Alien Dictionary	](https://leetcode.com/problems/alien-dictionary) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/AlienDictionary.java)
 * 156	[Sequence Reconstruction	](https://leetcode.com/problems/sequence-reconstruction) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/SequenceReconstruction.java)
 * 157	[Binary Tree Maximum Path Sum	](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-* 158	[Serialize and Deserialize Binary Tree	](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+* 158	[Serialize and Deserialize Binary Tree	](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/SerializeDeserializeBinaryTree.java)
 * 159	[Word Search II	](https://leetcode.com/problems/word-search-ii/)
 * 160	[Find Median from Data Stream	](https://leetcode.com/problems/find-median-from-data-stream/)
 * 161	[Sliding Window Median	](https://leetcode.com/problems/sliding-window-median/)
