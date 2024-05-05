@@ -215,7 +215,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 144	[Employee Free Time	](https://leetcode.com/problems/employee-free-time/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/EmployeeFreeTime.java)
 * 145	[Count of Range Sum	](https://leetcode.com/problems/count-of-range-sum/)
 * 146	[Sliding Window Maximum	](https://leetcode.com/problems/sliding-window-maximum/)
-* 147	[Longest Substring Without Repeating Characters	](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+* 147	[Longest Substring Without Repeating Characters	](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |[Solution](https://github.com/arjunmullick/coding-Interview/blob/master/SubstringConcatenationAllWords.java)
 * 148	[Minimum Number of K Consecutive Bit Flips	](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 * 149	[Count Unique Characters of All Substrings of a Given String	](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
 * 150	[Minimum Window Substring	](https://leetcode.com/problems/minimum-window-substring/)
