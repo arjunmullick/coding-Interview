@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PathSumII {
-
+    //root-to-leaf paths where the sum of the node values in the path equals target sum.
+    
     //https://leetcode.com/problems/path-sum-ii/
     class Solution {
         public List<List<Integer>> pathSum(TreeNode root, int sum) {
