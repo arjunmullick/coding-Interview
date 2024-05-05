@@ -224,7 +224,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 153	[Course Schedule III	](https://leetcode.com/problems/course-schedule-iii/)
 * 154	[Maximum Frequency Stack	](https://leetcode.com/problems/maximum-frequency-stack/)
 * 155	[Alien Dictionary	](https://leetcode.com/problems/alien-dictionary) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/AlienDictionary.java)
-* 156	[Sequence Reconstruction	](https://leetcode.com/problems/sequence-reconstruction)
+* 156	[Sequence Reconstruction	](https://leetcode.com/problems/sequence-reconstruction) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/SequenceReconstruction.java)
 * 157	[Binary Tree Maximum Path Sum	](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 * 158	[Serialize and Deserialize Binary Tree	](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 * 159	[Word Search II	](https://leetcode.com/problems/word-search-ii/)
