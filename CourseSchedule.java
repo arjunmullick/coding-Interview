@@ -9,6 +9,13 @@ import java.util.Queue;
 public class CourseSchedule {
 
     //https://leetcode.com/problems/course-schedule/
+    /**
+    Input: numCourses = 2, prerequisites = [[1,0]]
+    Output: true
+    Explanation: There are a total of 2 courses to take. 
+    To take course 1 you should have finished course 0. So it is possible.
+
+    **/
 
     //O(∣E∣+∣V∣) no of edge + vertices
     class Solution {
