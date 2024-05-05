@@ -2,10 +2,21 @@ package com.leetcode;
 
 import java.util.HashMap;
 import java.util.PriorityQueue;
-
+//adjacent characters are not the same
 public class ReorganizeString {
 
     //https://leetcode.com/problems/reorganize-string/
+    /**
+    Example 1:
+    
+    Input: s = "aab"
+    Output: "aba"
+    Example 2:
+    
+    Input: s = "aaab"
+    Output: ""
+
+    **/
     class Solution {
         public String reorganizeString(String S) {
             String result = "";
