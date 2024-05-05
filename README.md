@@ -175,7 +175,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 104	[Minimum Size Subarray Sum	](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/MinimumSizeSubarraySum.java)(Sliding Window)
 * 105	[Fruit Into Baskets	](https://leetcode.com/problems/fruit-into-baskets/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/FruitIntoBaskets.java)(Sliding Window)
 * 106	[Permutation in String	](https://leetcode.com/problems/permutation-in-string/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/PermutationString.java)(Sliding Window)
-* 107	[Longest Repeating Character Replacement	](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution] (Sliding Window)(https://github.com/arjunmullick/Interview/blob/master/LongestRepeatingCharacterReplacement.java)
+* 107	[Longest Repeating Character Replacement	](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution] (https://github.com/arjunmullick/Interview/blob/master/LongestRepeatingCharacterReplacement.java) (Sliding Window)
 * 108	[Kth Smallest Element in a BST	](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/KthSmallestElementBST.java)
 * 109	[K Closest Points to Origin	](https://leetcode.com/problems/k-closest-points-to-origin/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/KClosestPointsToOrigin.java)
 * 110	[Top K Frequent Elements	](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/arjunmullick/Interview/blob/master/TopKFrequentElements.java)
