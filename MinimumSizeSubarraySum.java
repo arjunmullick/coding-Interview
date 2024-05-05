@@ -9,7 +9,7 @@ public class MinimumSizeSubarraySum {
     Explanation: The subarray [4,3] has the minimal length under the problem constraint.
     **/
     class Solution {
-        //O(n) - sliding window / two pointers
+        //O(n) - sliding window 
         public int minSubArrayLen(int s, int[] nums) {
             if(nums.length == 0){
                 return 0;
