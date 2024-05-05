@@ -2,6 +2,7 @@ package com.leetcode;
 
 public class ReverseLinkedListII {
 
+
     /**
      * Definition for singly-linked list.
      */
@@ -14,6 +15,12 @@ public class ReverseLinkedListII {
          ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
     //https://leetcode.com/problems/reverse-linked-list-ii/
+    /**
+    Example 1:
+
+        Input: head = [1,2,3,4,5], left = 2, right = 4
+        Output: [1,4,3,2,5]
+    **/
     class Solution {
         public ListNode reverseBetween(ListNode head, int m, int n) {
             ListNode dummy = new ListNode();
