@@ -2,6 +2,11 @@ package com.leetcode;
 
 public class CoinChange {
     //https://leetcode.com/problems/coin-change/submissions/
+    /**
+        Input: coins = [1,2,5], amount = 11
+        Output: 3
+        Explanation: 11 = 5 + 5 + 1
+    **/
     //BottomUp
     class SolutionBottomUp {
         public int coinChange(int[] coins, int amount) {
