@@ -9,6 +9,10 @@ public class RandomPickWeight {
     You need to implement the function pickIndex(), 
     which randomly picks an index in the range [0, w.length - 1] (inclusive) and returns it. T
     he probability of picking an index i is w[i] / sum(w).
+
+    [1,3,6] -> [0,1,1,1,2,2,2,2,2,2]
+    this can be divided as buckets = [0,0],[1,3],[4,9]
+    pick a number between 0 to 9 then I need to see which bucket above it correspond to and return the bucket index. 
     */
     class Solution {
 
