@@ -1,4 +1,10 @@
 class Solution {
+    //number of days you have to wait after the ith day to get a warmer temperature
+    /**
+    Input: temperatures = [73,74,75,71,69,72,76,73]
+    Output: [1,1,4,2,1,1,0,0]
+
+    **/
     public int[] dailyTemperatures(int[] temperatures) {
         Stack<Integer> stack = new Stack<>();//stores index 
         int n = temperatures.length;
