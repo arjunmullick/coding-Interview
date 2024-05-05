@@ -228,7 +228,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * 157	[Binary Tree Maximum Path Sum	](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 * 158	[Serialize and Deserialize Binary Tree	](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/SerializeDeserializeBinaryTree.java)
 * 159	[Word Search II	](https://leetcode.com/problems/word-search-ii/)
-* 160	[Find Median from Data Stream	](https://leetcode.com/problems/find-median-from-data-stream/)
+* 160	[Find Median from Data Stream	](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/FindMedian.java)
 * 161	[Sliding Window Median	](https://leetcode.com/problems/sliding-window-median/)
 * 162	[Trapping Rain Water	](https://leetcode.com/problems/trapping-rain-water/)
 * 163	[Container With Most Water	](https://leetcode.com/problems/container-with-most-water/)
