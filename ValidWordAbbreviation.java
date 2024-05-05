@@ -1,4 +1,7 @@
 //https://leetcode.com/problems/valid-word-abbreviation/
+//s10n" is a valid abbreviation of "substitution" b
+//Time O(m + n), where m is the length of word and n is the length of abbr.
+// Space " O(1), which represents constant space.
 class Solution {
     public boolean validWordAbbreviation(String word, String abbr) {
         int i=0, j=0;
