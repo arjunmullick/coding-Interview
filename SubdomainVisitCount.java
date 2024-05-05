@@ -5,13 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
-Example 1:
 
-Input: cpdomains = ["9001 discuss.leetcode.com"]
-Output: ["9001 leetcode.com","9001 discuss.leetcode.com","9001 com"]
-Explanation: We only have one website domain: "discuss.leetcode.com".
-As discussed above, the subdomain "leetcode.com" and "com" will also be visited. So they will all be visited 9001 times.
-Example 2:
+Example:
 
 Input: cpdomains = ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]
 Output: ["901 mail.com","50 yahoo.com","900 google.mail.com","5 wiki.org","5 org","1 intel.mail.com","951 com"]
