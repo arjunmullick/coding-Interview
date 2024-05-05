@@ -6,6 +6,73 @@ import java.util.PriorityQueue;
 
 public class MergeIntervals {
     //https://leetcode.com/problems/merge-intervals/
+
+
+
+    /*
+Instead of keeping in PQ sort the array in place.
+*/
+class SolutionMemOptimized {
+    
+    /*
+    
+    case 1 :
+    |----------|
+       |-----------|
+       
+       
+    case 2 :
+    |-----------|
+    |----|
+    
+    case 3 :
+    |-----------|
+    |-------------|
+    
+    case 4 :
+    |-----------|
+                |----|       
+          
+          
+    case 5 :      
+    |-----------|
+                    |----|
+    */
+    public int[][] merge(int[][] intervals) {
+        
+        int n = intervals.length;
+        if(n <= 1) return intervals;
+        
+        Arrays.sort(intervals , (a,b) -> (a[0]-b[0]));//ascend by start
+        
+        //PriorityQueue<int[]> minHeap = new PriorityQueue<>((a,b) -> (a[0]-b[0]));
+        
+        int[] prev = intervals[0];
+        List<int[]> resultList = new ArrayList<>();
+        for(int i = 1 ; i < n ; i++){
+            int[] next = intervals[i];
+            //merge
+            if(next[0] <= prev[1]){
+                prev[0] = Math.min(prev[0],next[0]);
+                prev[1] = Math.max(prev[1],next[1]);
+            }else{
+                resultList.add(prev);
+                prev = next;
+            }
+        }
+        resultList.add(prev); // To remember !!! 
+        
+        int[][] result = new int[resultList.size()][2];
+        for(int i = 0 ; i < resultList.size() ; i++){
+            result[i] = resultList.get(i);
+        }
+        
+        return result;
+        
+    }
+}
+
+    
     class Solution {
         public int[][] merge(int[][] intervals) {
             if(intervals == null || intervals.length <= 1) return intervals;
@@ -94,65 +161,4 @@ public class MergeIntervals {
     }
 }
 
-/*
-Instead of keeping in PQ sort the array in place.
-*/
-class SolutionMemOptimized {
-    
-    /*
-    
-    case 1 :
-    |----------|
-       |-----------|
-       
-       
-    case 2 :
-    |-----------|
-    |----|
-    
-    case 3 :
-    |-----------|
-    |-------------|
-    
-    case 4 :
-    |-----------|
-                |----|       
-          
-          
-    case 5 :      
-    |-----------|
-                    |----|
-    */
-    public int[][] merge(int[][] intervals) {
-        
-        int n = intervals.length;
-        if(n <= 1) return intervals;
-        
-        Arrays.sort(intervals , (a,b) -> (a[0]-b[0]));//ascend by start
-        
-        //PriorityQueue<int[]> minHeap = new PriorityQueue<>((a,b) -> (a[0]-b[0]));
-        
-        int[] prev = intervals[0];
-        List<int[]> resultList = new ArrayList<>();
-        for(int i = 1 ; i < n ; i++){
-            int[] next = intervals[i];
-            //merge
-            if(next[0] <= prev[1]){
-                prev[0] = Math.min(prev[0],next[0]);
-                prev[1] = Math.max(prev[1],next[1]);
-            }else{
-                resultList.add(prev);
-                prev = next;
-            }
-        }
-        resultList.add(prev); // To remember !!! 
-        
-        int[][] result = new int[resultList.size()][2];
-        for(int i = 0 ; i < resultList.size() ; i++){
-            result[i] = resultList.get(i);
-        }
-        
-        return result;
-        
-    }
-}
+
