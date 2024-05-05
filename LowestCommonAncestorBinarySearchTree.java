@@ -39,6 +39,20 @@ public class LowestCommonAncestorBinarySearchTree {
     }
 }
 
+
+// Not a BST 
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+       if (root == null || root == p || root == q) return root;
+        TreeNode lt = lowestCommonAncestor(root.left, p, q);
+        TreeNode rt = lowestCommonAncestor(root.right, p, q);
+        if (lt == null && rt != null) return rt;
+        if (lt != null && rt == null) return lt;
+        if (lt == null && rt == null) return null;
+        return root;
+    }
+}
+
 /**
   Not a BST
   
