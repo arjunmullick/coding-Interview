@@ -1,135 +1,114 @@
-package com.leetcode;
+/**
+ * 
+ * Example 1:
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
+Input:
+["area","lead","wall","lady","ball"]
 
-public class WordSquares {
+Output:
+[
+  [ "wall",
+    "area",
+    "lead",
+    "lady"
+  ],
+  [ "ball",
+    "area",
+    "lead",
+    "lady"
+  ]
+]
 
-    /**
-     * Add a row in square and search on last added top down or left to right prefix to see next possible strings to add. 
-     * Backtrack at each branch
-     * 
-     * | w  | a  | l  | l* |
-     * | a  | r  | e  | a* |
-     * | l  | e  | a  | d* |
-     * | l* | a* | d* | y  |
-     * 
-     */
+Explanation:
+The output consists of two word squares. The order of output does not matter (just the order of words in each word square matters).
+Example 2:
 
-    //https://leetcode.com/problems/word-squares/
-    class Solution {
-        public List<List<String>> wordSquares(String[] words) {
-            List<List<String>> result = new LinkedList<>();
-            if(words == null || words.length == 0 || words[0] == null || words[0].length() == 0) return result;
+Input:
+["abat","baba","atan","atal"]
 
-            Trie trie = new Trie();
-            for(String w : words){
-                trie.insert(w);
+Output:
+[
+  [ "baba",
+    "abat",
+    "baba",
+    "atan"
+  ],
+  [ "baba",
+    "abat",
+    "baba",
+    "atal"
+  ]
+]
+
+Explanation:
+The output consists of two word squares. The order of output does not matter (just the order of words in each word square matters).
+Difficulty:
+ * /
+
+class Trie {
+    Trie[] children = new Trie[26];
+    List<Integer> v = new ArrayList<>();
+
+    void insert(String word, int i) {
+        Trie node = this;
+        for (char c : word.toCharArray()) {
+            c -= 'a';
+            if (node.children[c] == null) {
+                node.children[c] = new Trie();
             }
-
-            for(int i = 0 ; i < words.length ; i++){
-                List<String> square = new LinkedList<>();
-                square.add(words[i]);
-                backtrack(trie,square,words,result);// add first row of square / all possibility
-                square.remove(square.size()-1);
-            }
-            return result;
-        }
-
-
-        public void backtrack(Trie trie, List<String> square, String[] words, List<List<String>> result){
-            if(square.size() == words[0].length()){
-                //added all words successfully in square.
-                result.add(new ArrayList<>(square));
-                return;
-            }
-
-            int pos = square.size();//no of words added
-            int len = words[0].length();//max len of word
-            String prefix = "";
-            for(String s : square){
-                prefix = prefix + s.charAt(pos); // top down and left to right string formed
-            }
-            if(trie.existPrefix(prefix)){
-                List<String> next = trie.getAllPrefix(prefix);
-                for(String n : next){
-                    square.add(n);
-                    backtrack(trie,square,words,result);
-                    square.remove(square.size()-1);
-                }
-            }else{
-                return;
-            }
+            node = node.children[c];
+            node.v.add(i);
         }
     }
 
-//create a prefix search Trie
-
-    class Trie{
-        TrieNode root;
-
-        public Trie(){
-            this.root = new TrieNode();
-        }
-
-        public void insert(String s){
-            TrieNode node = root;
-            for(int i = 0 ; i < s.length() ; i++){
-                char ch = s.charAt(i);
-                TrieNode next = node.childs.getOrDefault(ch, new TrieNode());
-                node.childs.put(ch,next);
-                node.words.add(s);
-                node = next;
+    List<Integer> search(String pref) {
+        Trie node = this;
+        for (char c : pref.toCharArray()) {
+            c -= 'a';
+            if (node.children[c] == null) {
+                return Collections.emptyList();
             }
-            node.isWord = true;
+            node = node.children[c];
+        }
+        return node.v;
+    }
+}
+
+class Solution {
+    private Trie trie = new Trie();
+    private String[] words;
+    private List<List<String>> ans = new ArrayList<>();
+
+    public List<List<String>> wordSquares(String[] words) {
+        this.words = words;
+        for (int i = 0; i < words.length; ++i) {
+            trie.insert(words[i], i);
         }
 
-        public boolean exist(String s){
-            TrieNode node = root;
-            for(int i = 0 ; i < s.length() ; i++){
-                char ch = s.charAt(i);
-                if(node.childs.get(ch) == null) return false;
-                TrieNode next = node.childs.get(ch);
-                node = next;
-            }
-            return node.isWord;
+        List<String> t = new ArrayList<>();
+        for (String w : words) {
+            t.add(w);
+            dfs(t);
+            t.remove(t.size() - 1);
         }
-
-        public boolean existPrefix(String s){
-            TrieNode node = root;
-            for(int i = 0 ; i < s.length() ; i++){
-                char ch = s.charAt(i);
-                if(node.childs.get(ch) == null) return false;
-                TrieNode next = node.childs.get(ch);
-                node = next;
-            }
-            return true;
-        }
-
-        public List<String> getAllPrefix(String s){
-            TrieNode node = root;
-            for(int i = 0 ; i < s.length() ; i++){
-                char ch = s.charAt(i);
-                if(node.childs.get(ch) == null) return new ArrayList<>();
-                TrieNode next = node.childs.get(ch);
-                node = next;
-            }
-            return node.words;
-        }
+        return ans;
     }
 
-    class TrieNode{
-
-        HashMap<Character,TrieNode> childs;
-        Character ch;
-        boolean isWord;
-        List<String> words;
-
-        public TrieNode(){
-            this.childs = new HashMap<>();
-            words = new ArrayList<>();
+    private void dfs(List<String> t) {
+        if (t.size() == words[0].length()) {
+            ans.add(new ArrayList<>(t));
+            return;
+        }
+        int idx = t.size();
+        StringBuilder pref = new StringBuilder();
+        for (String x : t) {
+            pref.append(x.charAt(idx));
+        }
+        List<Integer> indexes = trie.search(pref.toString());
+        for (int i : indexes) {
+            t.add(words[i]);
+            dfs(t);
+            t.remove(t.size() - 1);
         }
     }
 }
