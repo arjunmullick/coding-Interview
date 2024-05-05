@@ -14,6 +14,9 @@ public class GenerateParentheses {
             Input: n = 1
             Output: ["()"]
 
+            Time complexity: O(2^n), as there are 2^n possible combinations of ‘(‘ and ‘)’ parentheses.
+            Auxiliary space: O(n), as n characters are stored in the str array.
+
     **/
     //https://leetcode.com/problems/generate-parentheses/
     // String is not passed as reference so no need to backtrack . Branch can end
