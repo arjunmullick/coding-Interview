@@ -262,7 +262,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Tax Slab](https://github.com/arjunmullick/Interview/blob/master/TaxSlab.java)
 * [Design Add and Search Words Data Structure](https://github.com/arjunmullick/coding-Interview/blob/master/DesignAddSearchWordsDataStructure.java)
 * [Vertical Order Traversal of a Binary Tree](https://github.com/arjunmullick/coding-Interview/blob/master/VerticalOrderTraversalBinaryTree.java)
-* [Lowest Common Ancestor of a Binary Tree III or Intersection of two list](https://github.com/arjunmullick/coding-Interview/blob/master/LowestCommonAncestorBinaryTreeParentPointer.java)
+* [Lowest Common Ancestor of a Binary Tree III or Intersection of two list](https://github.com/arjunmullick/coding-Interview/blob/master/LowestCommonAncestorBinaryTreeParentPointer.java) | [LCA Binary Tree] (https://github.com/arjunmullick/coding-Interview/blob/master/LowestCommonAncestorBinaryTree.java) | [LCA BST](https://github.com/arjunmullick/coding-Interview/blob/master/LowestCommonAncestorBinarySearchTree.java)
 * [Connecting Cities With Minimum Cost](https://github.com/arjunmullick/coding-Interview/blob/master/ConnectingCitiesWithMinimumCost.java)
 * [Valid Word Abbreviation](https://github.com/arjunmullick/coding-Interview/blob/master/ValidWordAbbreviation.java)
 * [Perimeter or Boundary of Tree ](https://github.com/arjunmullick/coding-Interview/blob/master/Perimeter%20or%20Boundary%20of%20Tree.java)
