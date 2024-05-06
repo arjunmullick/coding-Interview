@@ -267,6 +267,7 @@ ConcurrentSkipListMap | O(log n) |   O(log n)  | O(1)     | Skip List
 * [Valid Word Abbreviation](https://github.com/arjunmullick/coding-Interview/blob/master/ValidWordAbbreviation.java)
 * [Perimeter or Boundary of Tree ](https://github.com/arjunmullick/coding-Interview/blob/master/Perimeter%20or%20Boundary%20of%20Tree.java)
 * [Restore IP Address](https://github.com/arjunmullick/coding-Interview/blob/master/RestoreIpAddresses.java)
+* [Travel Flight Plan Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/) | [Solution](https://github.com/arjunmullick/coding-Interview/blob/master/TravelFlightPlanReconstructItinerary.java)
 ------------------------------------------------------------------------------------------------------------------------------
 
 ## Custom DataStructure 
