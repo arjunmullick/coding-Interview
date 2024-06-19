@@ -27,7 +27,7 @@ public void maxRandomIndex(int[] nums) {
     } else if (nums[i] == max) {
       count++;
 
-      // probability of 1/count
+      // probability of 1/count . throw a dice  and see if it match to choose this index so if in future asked max index its a fair chance to get any of the visited max value index/ 
       if (random.nextInt(count) == 0) {
         maxIndex = i;
       }
