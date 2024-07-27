@@ -533,3 +533,20 @@ Two Pointer / Two Choice
 
 TreeMap and Interval Tree
 * [How to solve with interval tree ](https://leetcode.com/problems/insert-interval/)
+* 
+
+
+## Tips on Code Review Task 
+
+* Base edge condition  like array size 0  etc 
+* Variable naming, errors in the code and not to focus solely on the algorithm itself.
+* clarified requirements about potential inputs, nulls expected, single threaded vs multi threaded etc
+* checked if boundary conditions were handled correctly
+* suggested better naming of variables 
+* suggested better data structures to store data // Set instead of a List
+* added Nullable and Nonnull annotations
+* code reusability
+* wrote down time and space complexity
+* test cases. I shared a few edge cases that we should look for.
+* meaningful variable, method names, modular code. no method is too complex, code reusability. Also make sure to ask for test cases to cover most of the code path.
+* readability of code, proper unit tests, code structure, short functions (max 1 screen size for one function), efficiency
